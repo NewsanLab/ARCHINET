@@ -4,12 +4,15 @@
 #include "SPIS.h"
 #include <rom/uart.h>
 #include "WiFi.h"
+
 extern "C" {
     #include <driver/periph_ctrl.h>
     #include <driver/uart.h>
     #include <driver/adc.h>
     #include <esp_bt.h>
 }
+
+#include "commandHandle.h"
 
 // Definición de pines
 #define MOSI_PIN 11
@@ -23,8 +26,9 @@ extern "C" {
 uint8_t* commandBuffer;   // Puntero para el buffer de comandos
 uint8_t* responseBuffer;  // Puntero para el buffer de respuestas
 
-const char* mensajeInicial = "mensaje enviar"; // Mensaje inicial
-void newmensaje(char* newMesj);
+const char* mensajeInicial = "iniciando_ESP32"; // Mensaje inicial
+void response(char* res);
+
 void setup() {
     Serial.begin(115200);
 
@@ -44,48 +48,41 @@ void setup() {
     commandBuffer = (uint8_t*)malloc(SPI_BUFFER_LEN);
     responseBuffer = (uint8_t*)malloc(SPI_BUFFER_LEN);
     
-    // Verificar que la asignación fue exitosa
+    // Verificar que la asignación 
     if (!commandBuffer || !responseBuffer) {
         Serial.println("Error al asignar memoria para los buffers.");
         while (1);
     }
-
+    // Copia el mensaje inicial al buffer de comandos
     size_t mensajeLength = strlen(mensajeInicial);
-    memcpy(commandBuffer, mensajeInicial, mensajeLength); // Copia el mensaje inicial al buffer de comandos
+    memcpy(commandBuffer, mensajeInicial, mensajeLength); 
     commandBuffer[mensajeLength] = '\0'; 
 }
 
 void loop() {
     // Transferir el commandBuffer y recibir la respuesta en responseBuffer
     int longitudRecibida = SPIS.transfer(commandBuffer, responseBuffer, strlen((const char*)commandBuffer));
-
     String mensajeRecibido = "";
     for (int i = 0; i < longitudRecibida; i++) {
         mensajeRecibido += (char)responseBuffer[i]; 
     }
-
-    Serial.printf("Mensaje enviado: %s\n", commandBuffer);
-    Serial.printf("Mensaje recibido: %s\n", mensajeRecibido.c_str()); 
-
-    if (strcmp(mensajeRecibido.c_str(), "COMANDO1") == 0) {
-        Serial.println("activando 1 ");
-        newmensaje("modificado ");
-
-    } else if (strcmp(mensajeRecibido.c_str(), "COMANDO2") == 0) {
-        Serial.println("activando 2 ");
-        newmensaje("modificado mensaje por segunda vez");
-    } else {
-        Serial.println("Comando no reconocido");
-    }
+   //!serial ESP
+  //  Serial.printf("Mensaje enviado: %s\n", commandBuffer);
+  //  Serial.printf("Mensaje recibido: %s\n", mensajeRecibido.c_str()); 
+    commandWifi(mensajeRecibido);
 
 }
-void newmensaje(char* newMesj){
-        const char* nuevoMensaje2 = newMesj;
-        size_t nuevoMensaje2Length = strlen(nuevoMensaje2);
+
+//Mensaje recibo por el Archi
+void response(const char* res){
+        const char* respuesta = res;
+        size_t len_response = strlen(respuesta);
+
+        //Serial.println(len_response);
         
-        if (nuevoMensaje2Length < SPI_BUFFER_LEN) {
-            memcpy(commandBuffer, nuevoMensaje2, nuevoMensaje2Length); 
-            commandBuffer[nuevoMensaje2Length] = '\0'; 
+        if (len_response < SPI_BUFFER_LEN) {
+            memcpy(commandBuffer, respuesta, len_response); 
+            commandBuffer[len_response] = '\0'; 
         }
 }
 void cleanup() {
