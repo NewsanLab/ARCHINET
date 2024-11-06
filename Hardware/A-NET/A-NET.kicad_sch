@@ -1,0 +1,715 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35cd6522-dedd-4747-926a-ebf273b4ab66")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 166.37 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d4c6f5-f4e1-4ed7-b8cd-bd12716fa9d6")
+	)
+	(junction
+		(at 167.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95998819-835d-4309-80d2-ba118b42a4fa")
+	)
+	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96f7bd9-c859-4088-b4a3-3191f976bcf2")
+	)
+	(wire
+		(pts
+			(xy 161.29 80.01) (xy 183.515 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080ed600-6eb1-4ced-9df1-b0adf862a362")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 183.515 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f082fda-96dc-4b24-9613-8bb6f2e53fd1")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d90fc5-49b2-4939-ae87-ec49de0498cd")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.025) (xy 183.515 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ac8025-5746-466b-ac59-0a23bbe86831")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.22) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b06db93-0bfd-40c2-bb94-2681c8301706")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 183.515 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7c8f64-e982-456f-b862-48fd395e575b")
+	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 183.515 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4807ac40-76eb-452f-8211-abc4b01f6e15")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.265) (xy 161.29 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf78cf-3c09-46d3-a34c-9c1964637311")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659f2d21-11fe-4fc9-b61e-c6eb0fe46bd5")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 183.515 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afc74c0-645a-431a-87b2-2ac191ed80c0")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.915) (xy 183.515 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3d7f0b-db50-44cc-a1a2-c2e20f54c911")
+	)
+	(wire
+		(pts
+			(xy 168.91 116.205) (xy 168.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aea768d-89ca-4e83-81a0-76ff3b03c094")
+	)
+	(wire
+		(pts
+			(xy 183.515 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a354a12e-fa16-4015-b163-22560cd45784")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba70902a-3719-4c7f-80ab-a1e1b0a5053a")
+	)
+	(wire
+		(pts
+			(xy 183.515 116.205) (xy 168.91 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30a3d26-26e9-405e-ab43-5d68ae697c2f")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 183.515 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd2fe98-f8fa-41a6-a492-60a0e8356661")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23f9a67-1fcc-4bf7-b3f9-b3924c317e81")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 171.45 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5acecd0-3a30-4a7d-baea-1110d672a448")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6af8595-1dd0-47aa-8deb-0499270de234")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8371fa0-a7a1-4730-8959-9e593f44c6f6")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9ea5ce-9d82-40bf-b595-d096dc298edc")
+	)
+	(wire
+		(pts
+			(xy 183.515 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e486e3d7-b061-41a3-b9a0-5921927b8ee1")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b858a5-544c-43cb-b302-8970fcf3d1e4")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac16cb7-b858-4ab7-af3b-0060d9d20232")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 183.515 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1814bb6-9de3-44b5-bfee-d47de3961af0")
+	)
+	(wire
+		(pts
+			(xy 161.29 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc30e2c1-cab5-492b-9a4c-d129a6bee523")
+	)
+	(rectangle
+		(start 16.51 17.78)
+		(end 279.4 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fff62d18-3a6b-4aa4-b1ac-09e3319305f4)
+	)
+	(text "ArchiNET"
+		(exclude_from_sim no)
+		(at 140.97 31.75 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+			)
+		)
+		(uuid "a343cbf4-8df5-4517-88a1-989e10595a2e")
+	)
+	(sheet
+		(at 183.515 58.42)
+		(size 33.02 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7cdbc004-5691-4fd4-8a0f-d3a78b28e9f2")
+		(property "Sheetname" "MCU-WiFi"
+			(at 183.515 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-WiFi.kicad_sch"
+			(at 183.515 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "READY" input
+			(at 183.515 81.915 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "433ada10-1143-45d4-8c50-35e2b1053fd8")
+		)
+		(pin "CLK" input
+			(at 183.515 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cae1ab16-2c35-41fa-b068-d7388273837a")
+		)
+		(pin "MOSI" input
+			(at 183.515 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8d0f520-c103-4941-aa29-e28e736d534e")
+		)
+		(pin "MISO" input
+			(at 183.515 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "baafa96c-3f38-4d1c-80a9-3f24f38dffe5")
+		)
+		(pin "CS" input
+			(at 183.515 73.025 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15bc89b7-f447-43b1-bb8a-6e04d1d59c99")
+		)
+		(pin "RESET" input
+			(at 183.515 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d427f51-4f5e-41d4-824f-fa0f5d909d00")
+		)
+		(instances
+			(project "A-NET"
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 183.515 101.6)
+		(size 33.02 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "87db1f9a-df11-4ed3-82e8-c2f413192aa0")
+		(property "Sheetname" "Ethernet"
+			(at 183.515 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 183.515 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 183.515 116.205 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6e99a19-ffcc-43ef-99b7-0a9de97a3550")
+		)
+		(pin "MOSI" input
+			(at 183.515 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17644b7e-ca7f-4db3-a17c-7a1f640c2d7b")
+		)
+		(pin "CLK" input
+			(at 183.515 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c59a2ffd-5b15-43c3-a314-986da586c67d")
+		)
+		(pin "RESET" input
+			(at 183.515 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc4d6264-44cd-422f-8f55-b2da115935ab")
+		)
+		(pin "MISO_MCU" input
+			(at 183.515 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "531091d7-feaf-45b9-b3d4-42242a50b1cb")
+		)
+		(pin "INTN" input
+			(at 183.515 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28680de5-89b6-4bdb-ae4e-ebf3aafe0876")
+		)
+		(instances
+			(project "A-NET"
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 58.42)
+		(size 33.02 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ea869af3-c719-4069-98d4-3aadadb82bc8")
+		(property "Sheetname" "Archi"
+			(at 128.27 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Archi.kicad_sch"
+			(at 128.27 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS2" input
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "153a2c75-b060-4c46-a00c-e7d52b1c226f")
+		)
+		(pin "MOSI" input
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "128dab3c-0943-4c03-a8ad-a003bb0f5125")
+		)
+		(pin "MISO" input
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7f3da10-951b-4af0-87fc-e521aac447c5")
+		)
+		(pin "CLK" input
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1916a93b-c3e0-4eec-90da-a6340c6d8310")
+		)
+		(pin "CS1" input
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34b3f9d1-b242-4cb5-af8e-9678da31e926")
+		)
+		(pin "READY" input
+			(at 161.29 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee3520f9-c778-47a1-87bb-d03431d4b599")
+		)
+		(pin "RESET_MCU" input
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b268e63c-fbf1-4d5f-8cc7-3f534e441166")
+		)
+		(pin "VIN" input
+			(at 128.27 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9f77f12-7f73-46bd-866f-3af02ba30a5e")
+		)
+		(pin "GND" input
+			(at 128.27 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acaedb2f-0445-4430-abf9-33c0fc090a63")
+		)
+		(pin "INTN" input
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6176e643-5f59-4742-b30c-eaec357bd59f")
+		)
+		(pin "RSTN" input
+			(at 161.29 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40199353-ed75-49e7-9687-be48c7f1cd19")
+		)
+		(instances
+			(project "A-NET"
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 58.42)
+		(size 39.37 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f180fa7a-9c78-4078-b343-604f305e02a1")
+		(property "Sheetname" "Alimentación"
+			(at 77.47 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentación.kicad_sch"
+			(at 77.47 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a1634d1-e7d4-41a1-a637-fa401bd7a487")
+		)
+		(pin "VOUT" input
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a5cc4f7-30d7-4817-8b1c-fd47e9a292ea")
+		)
+		(instances
+			(project "A-NET"
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
