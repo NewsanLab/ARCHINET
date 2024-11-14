@@ -225,16 +225,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9ea5ce-9d82-40bf-b595-d096dc298edc")
-	)
-	(wire
-		(pts
 			(xy 183.515 109.22) (xy 166.37 109.22)
 		)
 		(stroke
@@ -611,16 +601,6 @@
 			)
 			(uuid "a9f77f12-7f73-46bd-866f-3af02ba30a5e")
 		)
-		(pin "GND" input
-			(at 128.27 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "acaedb2f-0445-4430-abf9-33c0fc090a63")
-		)
 		(pin "INTN" input
 			(at 161.29 86.36 0)
 			(effects
@@ -678,16 +658,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "GND" input
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4a1634d1-e7d4-41a1-a637-fa401bd7a487")
 		)
 		(pin "VOUT" input
 			(at 116.84 63.5 0)
