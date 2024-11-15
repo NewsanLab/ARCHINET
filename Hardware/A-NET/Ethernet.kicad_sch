@@ -6797,12 +6797,6 @@
 		(uuid "08501558-96e3-4ac0-96bc-bfee39d59da1")
 	)
 	(junction
-		(at 222.885 338.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09e1e0d5-eecd-4716-a435-bb51b5649570")
-	)
-	(junction
 		(at 149.225 285.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6825,12 +6819,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f4d4e17-3a70-451a-a5c7-71faa85fb014")
-	)
-	(junction
-		(at 193.675 369.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2043605b-8394-4321-b475-cac9e1c9f196")
 	)
 	(junction
 		(at 107.315 120.015)
@@ -6869,16 +6857,22 @@
 		(uuid "2d07fd39-2bcb-4f79-b27d-36c8dc0b9e25")
 	)
 	(junction
-		(at 229.235 314.325)
+		(at 194.31 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30a437ed-ebbb-4314-950b-8a88b60f574e")
+		(uuid "33064531-f6e9-45c5-9635-b0c687cbc9f8")
 	)
 	(junction
 		(at 174.625 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33081ff3-20bd-4a49-9da0-1f8cc9b50fa3")
+	)
+	(junction
+		(at 117.475 369.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3371b2b8-e3ec-4e00-8116-c48f49e9f35f")
 	)
 	(junction
 		(at 137.165 345.44)
@@ -6923,6 +6917,12 @@
 		(uuid "421dc335-c8fe-42f1-8d8f-9073a5c359a4")
 	)
 	(junction
+		(at 229.235 315.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5b3832-9296-44be-b314-a27a18cfbd24")
+	)
+	(junction
 		(at 257.81 98.425)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6965,22 +6965,10 @@
 		(uuid "5a9882e1-d71b-48d3-8ae5-5ce4815edafd")
 	)
 	(junction
-		(at 123.825 369.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5edcd726-8b53-473b-aaa0-fd285d2d878a")
-	)
-	(junction
 		(at 335.915 338.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f9d9c09-e961-49d7-b061-d98eb037474e")
-	)
-	(junction
-		(at 123.825 285.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64457839-baad-4344-9867-ff435bde4d99")
 	)
 	(junction
 		(at 170.815 158.115)
@@ -7031,6 +7019,18 @@
 		(uuid "75c22339-1306-4a39-8888-d78a4aab5b90")
 	)
 	(junction
+		(at 222.885 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f9667e-cc76-49f5-804f-00c1f3aee640")
+	)
+	(junction
+		(at 218.44 338.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f98bee-c4d4-4fb4-84e4-e1bcc1ab0f83")
+	)
+	(junction
 		(at 343.535 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7055,16 +7055,22 @@
 		(uuid "8c1dc539-9f62-4b10-a309-2500f246b920")
 	)
 	(junction
-		(at 242.57 314.325)
+		(at 194.31 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91f3f22c-9788-4efd-9f08-fa37affaf040")
+		(uuid "950b8e1b-f8da-46f1-9cb8-9356d523041f")
 	)
 	(junction
 		(at 48.895 159.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a09da922-72c6-45e1-a9d7-8ec91cb24b42")
+	)
+	(junction
+		(at 242.57 315.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1690443-d9aa-41e1-b941-73f516e41c14")
 	)
 	(junction
 		(at 214.635 338.65)
@@ -7103,12 +7109,6 @@
 		(uuid "bbc83e1f-f33f-4e81-ab2f-214f9f1e41cc")
 	)
 	(junction
-		(at 193.675 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf376123-4539-4dba-9191-4c6a46711dc7")
-	)
-	(junction
 		(at 302.895 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7125,6 +7125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c961e7f9-8bc0-421b-93be-bde2c3f3e039")
+	)
+	(junction
+		(at 117.475 285.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cda06019-7797-42ec-bb3b-80bda192a307")
 	)
 	(junction
 		(at 302.895 289.56)
@@ -7227,12 +7233,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f1d189-2e27-4d78-ac77-46f1a5d17b88")
-	)
-	(junction
-		(at 218.445 338.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f866fc70-2b69-464f-a09e-3e32ae5fb2e3")
 	)
 	(junction
 		(at 257.81 85.725)
@@ -7362,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 314.325) (xy 231.775 314.325)
+			(xy 229.235 315.595) (xy 231.775 315.595)
 		)
 		(stroke
 			(width 0)
@@ -7439,16 +7439,6 @@
 			(type default)
 		)
 		(uuid "10815dee-b44a-4094-9b1a-576e5876d78f")
-	)
-	(wire
-		(pts
-			(xy 222.885 338.455) (xy 222.885 338.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c9de38-401c-46a7-826d-2beb375f8358")
 	)
 	(wire
 		(pts
@@ -7569,6 +7559,16 @@
 			(type default)
 		)
 		(uuid "16bd9328-665a-4d80-b289-45d51ae6c654")
+	)
+	(wire
+		(pts
+			(xy 194.31 369.57) (xy 218.445 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d94de7-8e81-4e4e-a822-e5b1e99aaa22")
 	)
 	(wire
 		(pts
@@ -7853,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 321.31) (xy 123.825 285.31)
+			(xy 117.475 321.945) (xy 117.475 285.31)
 		)
 		(stroke
 			(width 0)
@@ -7933,6 +7933,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 338.65) (xy 218.445 338.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d460f15-2596-4d09-94b4-6aad122e824c")
+	)
+	(wire
+		(pts
 			(xy 342.9 78.74) (xy 367.03 78.74)
 		)
 		(stroke
@@ -7940,16 +7950,6 @@
 			(type solid)
 		)
 		(uuid "2e06933f-f6f4-40fe-a8a0-06a9e2b9ffe1")
-	)
-	(wire
-		(pts
-			(xy 242.57 315.595) (xy 242.57 314.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e075b37-8906-4a57-af7b-2421ce7446b1")
 	)
 	(wire
 		(pts
@@ -8013,16 +8013,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 370.01) (xy 222.885 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "310a05ed-f8c3-4574-b1b9-be7d3470669b")
-	)
-	(wire
-		(pts
 			(xy 208.28 107.315) (xy 208.28 103.505)
 		)
 		(stroke
@@ -8033,7 +8023,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.635 338.65) (xy 218.445 338.65)
+			(xy 214.635 338.65) (xy 218.44 338.65)
 		)
 		(stroke
 			(width 0)
@@ -8214,13 +8204,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.175 369.57) (xy 123.825 369.57)
+			(xy 117.475 369.57) (xy 130.175 369.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f0c106d-8f10-4966-b1ff-3e77d431322a")
+		(uuid "3d7822cc-8329-48df-aa45-224057c64513")
 	)
 	(wire
 		(pts
@@ -8304,16 +8294,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 338.65) (xy 222.885 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b091bc-f743-4bdb-81dc-a7ec4e3f7794")
-	)
-	(wire
-		(pts
 			(xy 353.7 301.185) (xy 353.7 301.82)
 		)
 		(stroke
@@ -8334,7 +8314,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 307.34) (xy 242.57 314.325)
+			(xy 242.57 307.34) (xy 242.57 315.595)
 		)
 		(stroke
 			(width 0)
@@ -8344,7 +8324,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 311.785) (xy 260.35 311.785)
+			(xy 229.235 310.515) (xy 260.35 310.515)
 		)
 		(stroke
 			(width 0)
@@ -8474,16 +8454,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 285.31) (xy 137.165 285.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f12e3e7-f325-43ea-afc7-af8e4f4e2c18")
-	)
-	(wire
-		(pts
 			(xy 340.36 91.44) (xy 363.22 91.44)
 		)
 		(stroke
@@ -8595,16 +8565,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 356.87) (xy 194.315 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e42c9e-904e-45f3-8083-30ff1d6d1efe")
-	)
-	(wire
-		(pts
 			(xy 273.05 95.885) (xy 273.05 98.425)
 		)
 		(stroke
@@ -8685,6 +8645,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 340.36) (xy 242.57 338.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554af288-a3e3-40da-bb3f-f36f30f15e27")
+	)
+	(wire
+		(pts
 			(xy 201.295 109.855) (xy 201.295 125.095)
 		)
 		(stroke
@@ -8745,7 +8715,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 368.3) (xy 193.675 369.57)
+			(xy 194.31 368.3) (xy 194.31 369.57)
 		)
 		(stroke
 			(width 0)
@@ -8942,6 +8912,16 @@
 			(type solid)
 		)
 		(uuid "646cd771-18f2-40a9-9933-a52a5e49c3bb")
+	)
+	(wire
+		(pts
+			(xy 218.44 339.09) (xy 218.44 338.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6517757d-952b-4719-bba3-c0f70b718b2d")
 	)
 	(wire
 		(pts
@@ -9255,7 +9235,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 338.455) (xy 242.57 338.455)
+			(xy 222.885 340.36) (xy 242.57 340.36)
 		)
 		(stroke
 			(width 0)
@@ -9332,16 +9312,6 @@
 			(type solid)
 		)
 		(uuid "8213d9b3-de8b-4923-bb95-df60c553bbd1")
-	)
-	(wire
-		(pts
-			(xy 193.675 369.57) (xy 218.445 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83df90b7-cafe-4758-8822-0c652002192f")
 	)
 	(wire
 		(pts
@@ -9485,6 +9455,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 285.31) (xy 137.165 285.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5b0d53-0ae4-4ead-b811-36f6219652db")
+	)
+	(wire
+		(pts
 			(xy 335.28 111.76) (xy 335.28 114.3)
 		)
 		(stroke
@@ -9492,6 +9472,16 @@
 			(type solid)
 		)
 		(uuid "8bf36480-0480-4012-88cc-4240d249fe83")
+	)
+	(wire
+		(pts
+			(xy 229.235 315.595) (xy 229.235 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c63c2d1-72da-4817-8f47-fd19870c590f")
 	)
 	(wire
 		(pts
@@ -9755,7 +9745,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 314.325) (xy 229.235 370.01)
+			(xy 229.235 310.515) (xy 229.235 315.595)
 		)
 		(stroke
 			(width 0)
@@ -9835,7 +9825,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 331.47) (xy 123.825 369.57)
+			(xy 117.475 332.105) (xy 117.475 369.57)
 		)
 		(stroke
 			(width 0)
@@ -9862,6 +9852,16 @@
 			(type default)
 		)
 		(uuid "99d3508f-4d79-457a-94ef-ce5583838eef")
+	)
+	(wire
+		(pts
+			(xy 222.885 340.36) (xy 222.885 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f09a2a-7b9f-45b5-be52-ba496787dfbb")
 	)
 	(wire
 		(pts
@@ -9926,7 +9926,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 356.87) (xy 193.675 358.14)
+			(xy 194.31 356.87) (xy 194.31 358.14)
 		)
 		(stroke
 			(width 0)
@@ -9936,7 +9936,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.695 369.57) (xy 193.675 369.57)
+			(xy 186.695 369.57) (xy 194.31 369.57)
 		)
 		(stroke
 			(width 0)
@@ -10067,7 +10067,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.445 338.65) (xy 222.885 338.65)
+			(xy 218.44 339.09) (xy 222.885 339.09)
 		)
 		(stroke
 			(width 0)
@@ -10247,6 +10247,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 310.515) (xy 260.35 311.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a9559c-14db-457e-9d0d-776869853948")
+	)
+	(wire
+		(pts
 			(xy 343.535 289.56) (xy 333.121 289.56)
 		)
 		(stroke
@@ -10417,7 +10427,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 314.325) (xy 239.395 314.325)
+			(xy 242.57 315.595) (xy 239.395 315.595)
 		)
 		(stroke
 			(width 0)
@@ -10427,7 +10437,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 285.31) (xy 123.825 285.31)
+			(xy 103.505 285.31) (xy 117.475 285.31)
 		)
 		(stroke
 			(width 0)
@@ -10537,7 +10547,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 369.57) (xy 123.825 369.57)
+			(xy 103.505 369.57) (xy 117.475 369.57)
 		)
 		(stroke
 			(width 0)
@@ -10554,6 +10564,16 @@
 			(type solid)
 		)
 		(uuid "d0574ff7-7a55-4095-adac-263e0c78d4cb")
+	)
+	(wire
+		(pts
+			(xy 194.31 356.87) (xy 194.315 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16bee1e-3b92-49bd-81cd-00c38270a964")
 	)
 	(wire
 		(pts
@@ -10657,23 +10677,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 370.01) (xy 222.885 370.01)
+			(xy 229.235 369.57) (xy 222.885 369.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8769bcb-e844-4bfd-bdd5-a04d92a34476")
-	)
-	(wire
-		(pts
-			(xy 229.235 311.785) (xy 229.235 314.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a17472-0e87-4c72-95e5-079ca8b0db76")
 	)
 	(wire
 		(pts
@@ -10867,7 +10877,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 356.87) (xy 193.675 356.87)
+			(xy 159.385 356.87) (xy 194.31 356.87)
 		)
 		(stroke
 			(width 0)
@@ -10884,6 +10894,16 @@
 			(type default)
 		)
 		(uuid "ee494a1b-7a77-4988-b25e-301eee300926")
+	)
+	(wire
+		(pts
+			(xy 222.885 339.09) (xy 222.885 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed75538-7ba5-4331-b5d8-d20763430d5f")
 	)
 	(wire
 		(pts
@@ -11116,8 +11136,8 @@
 		(uuid "fffccfca-0063-4dd5-aa28-78c0700bf396")
 	)
 	(rectangle
-		(start 296.545 313.69)
-		(end 309.245 322.58)
+		(start 299.72 312.42)
+		(end 312.42 321.31)
 		(stroke
 			(width 0.0254)
 			(type solid)
@@ -11229,7 +11249,7 @@
 	)
 	(text "5Vdc"
 		(exclude_from_sim no)
-		(at 299.085 317.5 0)
+		(at 302.26 316.23 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -11378,7 +11398,7 @@
 	)
 	(text "2Adc"
 		(exclude_from_sim no)
-		(at 299.085 321.31 0)
+		(at 302.26 320.04 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -11874,7 +11894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.855 288.485 0)
 			(effects
 				(font
@@ -11883,7 +11903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 196.855 288.485 0)
 			(effects
 				(font
@@ -11892,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "680 kOhms ±5% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 196.855 288.485 0)
 			(effects
 				(font
@@ -11901,7 +11921,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS0603680KFKEA"
+		(property "PartNumber" "RK73B2ATTD684J"
 			(at 196.855 288.485 0)
 			(effects
 				(font
@@ -11910,7 +11930,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS0603680KFKEA/5868794"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD684J/10236567"
 			(at 196.855 288.485 0)
 			(effects
 				(font
@@ -12136,7 +12156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 269.875 324.485 0)
 			(effects
 				(font
@@ -12145,7 +12165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 269.875 324.485 0)
 			(effects
 				(font
@@ -12154,7 +12174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "75 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 269.875 324.485 0)
 			(effects
 				(font
@@ -12163,7 +12183,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS060375R0FKEA"
+		(property "PartNumber" "RMCF1206FT75R0"
 			(at 269.875 324.485 0)
 			(effects
 				(font
@@ -12172,7 +12192,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS060375R0FKEA/5866931"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/stackpole-electronics-inc/RMCF1206FT75R0/1754170"
 			(at 269.875 324.485 0)
 			(effects
 				(font
@@ -12223,7 +12243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOD-123(1-C,2-A)"
+		(property "Footprint" "DatLibrery:BAV19"
 			(at 242.57 302.26 0)
 			(effects
 				(font
@@ -13300,7 +13320,7 @@
 		(dnp no)
 		(uuid "2546d171-9e0b-4bb9-b00f-f04e8a0daa6a")
 		(property "Reference" "C22"
-			(at 208.285 357.7 0)
+			(at 213.36 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,7 +13329,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V"
-			(at 208.285 360.24 0)
+			(at 210.185 358.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0805"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 215.905 352.62 0)
 			(effects
 				(font
@@ -13326,7 +13346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_y5v_6_3v-to-50v.pdf"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 215.905 352.62 0)
 			(effects
 				(font
@@ -13335,7 +13355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC-0805(2012)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 215.905 352.62 0)
 			(effects
 				(font
@@ -13344,7 +13364,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "CC0603ZRY5V9BB104"
+		(property "PartNumber" "1206B104K500CT"
 			(at 215.905 352.62 0)
 			(effects
 				(font
@@ -13353,7 +13373,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/yageo/CC0603ZRY5V9BB104/2103081"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/walsin-technology-corporation/1206B104K500CT/9355102"
 			(at 215.905 352.62 0)
 			(effects
 				(font
@@ -13556,7 +13576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DIP-08"
+		(property "Footprint" "DatLibrery:DIP-08"
 			(at 173.995 336.11 0)
 			(effects
 				(font
@@ -13831,7 +13851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30be3119-afcf-49ee-978f-321734b231cb")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR046"
 			(at 337.82 89.535 0)
 			(effects
 				(font
@@ -13881,7 +13901,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#PWR057")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13954,7 +13974,7 @@
 	)
 	(symbol
 		(lib_id "A-NET-altium-import:root_2_CAP-0805")
-		(at 236.855 316.865 0)
+		(at 236.855 318.135 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13962,7 +13982,7 @@
 		(dnp no)
 		(uuid "358fb1a3-e21b-4442-b998-7332e6660c7a")
 		(property "Reference" "C24"
-			(at 234.315 319.405 0)
+			(at 234.315 320.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,7 +13991,7 @@
 			)
 		)
 		(property "Value" "1uF/50V"
-			(at 231.775 321.945 0)
+			(at 231.775 323.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,8 +13999,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0805"
-			(at 236.855 316.865 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 236.855 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,8 +14008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21B105KBFNNNG_Spec.pdf"
-			(at 236.855 316.865 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL31B105KBHNNNE_Char.pdf"
+			(at 236.855 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,8 +14017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC-0805(2012)"
-			(at 236.855 316.865 0)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 236.855 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14006,8 +14026,8 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "CL21B105KBFNNNG"
-			(at 236.855 316.865 0)
+		(property "PartNumber" "CL31B105KBHNNNE"
+			(at 236.855 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,8 +14035,8 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNG/3894467"
-			(at 236.855 316.865 0)
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL31B105KBHNNNE/3886726"
+			(at 236.855 318.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14066,7 +14086,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOT23-3L"
+		(property "Footprint" "DatLibrery:SOT23-3L"
 			(at 139.065 367.03 0)
 			(effects
 				(font
@@ -14457,7 +14477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SM13117EL"
+		(property "Footprint" "DatLibrery:SM13117EL"
 			(at 271.78 296.545 0)
 			(effects
 				(font
@@ -15084,7 +15104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-8.3EC"
+		(property "Footprint" "DatLibrery:CAP-470uF16V"
 			(at 386.72 302.455 0)
 			(effects
 				(font
@@ -15658,7 +15678,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:RESISTOR_0603_NOOUT")
-		(at 123.825 326.39 90)
+		(at 117.475 327.025 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15666,7 +15686,7 @@
 		(dnp no)
 		(uuid "59c8b37a-d753-45cf-a453-d5c41158102f")
 		(property "Reference" "R17"
-			(at 121.285 326.39 0)
+			(at 114.935 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15694,7 @@
 			)
 		)
 		(property "Value" "24.9K"
-			(at 123.825 326.39 0)
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15683,8 +15703,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.825 326.39 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +15713,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
-			(at 123.825 326.39 0)
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,8 +15721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.825 326.39 0)
+		(property "Description" "24.9 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,7 +15731,7 @@
 			)
 		)
 		(property "PartNumber" "RCS060324K9FKEA"
-			(at 123.825 326.39 0)
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,8 +15739,8 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS060324K9FKEA/5868633"
-			(at 123.825 326.39 0)
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/stackpole-electronics-inc/RMCF1206FT24K9/1759803"
+			(at 117.475 327.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +16032,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AC/SMA"
+		(property "Footprint" "DatLibrery:SMAJ12"
 			(at 137.165 324.045 0)
 			(effects
 				(font
@@ -16461,7 +16481,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AC/SMA"
+		(property "Footprint" "DatLibrery:NCSMAJ150A"
 			(at 174.625 326.39 0)
 			(effects
 				(font
@@ -16698,7 +16718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.175 355.6 0)
 			(effects
 				(font
@@ -16707,7 +16727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 130.175 355.6 0)
 			(effects
 				(font
@@ -16716,7 +16736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 130.175 355.6 0)
 			(effects
 				(font
@@ -16725,7 +16745,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS060315K0FKEA"
+		(property "PartNumber" "RMCF1206FT15K0"
 			(at 130.175 355.6 0)
 			(effects
 				(font
@@ -16734,7 +16754,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS060315K0FKEA/5866942"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/stackpole-electronics-inc/RMCF1206FT15K0/1759987"
 			(at 130.175 355.6 0)
 			(effects
 				(font
@@ -17159,7 +17179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ce4be44-5e0b-4dde-9dd1-22e23eca8846")
-		(property "Reference" "#U$018"
+		(property "Reference" "#U$017"
 			(at 342.9 73.66 0)
 			(effects
 				(font
@@ -17210,7 +17230,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#U$018")
+					(reference "#U$017")
 					(unit 1)
 				)
 			)
@@ -17480,7 +17500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 137.165 302.455 0)
 			(effects
 				(font
@@ -17489,7 +17509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 137.165 302.455 0)
 			(effects
 				(font
@@ -17498,7 +17518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "51.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
 			(at 137.165 302.455 0)
 			(effects
 				(font
@@ -17507,7 +17527,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS060351K0FKEA"
+		(property "PartNumber" "RC1206FR-0751K1L"
 			(at 137.165 302.455 0)
 			(effects
 				(font
@@ -17516,7 +17536,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS060351K0FKEA/5868668"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/yageo/RC1206FR-0751K1L/728976"
 			(at 137.165 302.455 0)
 			(effects
 				(font
@@ -17567,7 +17587,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0603"
+		(property "Footprint" "DatLibrery:10Uf 10v"
 			(at 368.305 305.63 0)
 			(effects
 				(font
@@ -17806,7 +17826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AB/SMC"
+		(property "Footprint" "DatLibrery:RBR5L40A"
 			(at 292.735 289.56 0)
 			(effects
 				(font
@@ -17893,7 +17913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d2f1aa1-8113-43ef-bc87-abbe9d699888")
-		(property "Reference" "#U$020"
+		(property "Reference" "#U$019"
 			(at 377.19 180.34 0)
 			(effects
 				(font
@@ -17944,7 +17964,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#U$020")
+					(reference "#U$019")
 					(unit 1)
 				)
 			)
@@ -17977,7 +17997,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.715 332.3 0)
 			(effects
 				(font
@@ -18130,7 +18150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 251.46 299.085 0)
 			(effects
 				(font
@@ -18139,7 +18159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://vpgfoilresistors.com/docs/63106/VFCP.pdf"
 			(at 251.46 299.085 0)
 			(effects
 				(font
@@ -18148,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "100 Ohms ±0.02% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Anti-Sulfur, Moisture Resistant, Non-Inductive Metal Foil"
 			(at 251.46 299.085 0)
 			(effects
 				(font
@@ -18157,7 +18177,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS0603100RFKEA"
+		(property "PartNumber" "Y1630100R000Q9R"
 			(at 251.46 299.085 0)
 			(effects
 				(font
@@ -18166,7 +18186,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS0603100RFKEA/5866932"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vpg-foil-resistors/Y1630100R000Q9R/4231501"
 			(at 251.46 299.085 0)
 			(effects
 				(font
@@ -18433,7 +18453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0603"
+		(property "Footprint" "DatLibrery:0.33 50v"
 			(at 333.375 330.2 0)
 			(effects
 				(font
@@ -18442,7 +18462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 333.375 330.2 0)
 			(effects
 				(font
@@ -18460,7 +18480,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "TAJA334K050RNJ"
+		(property "PartNumber" "C1608X7R1H334K080AC"
 			(at 333.375 330.2 0)
 			(effects
 				(font
@@ -18469,7 +18489,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/kyocera-avx/TAJA334K050RNJ/11201823"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/tdk-corporation/C1608X7R1H334K080AC/2443428"
 			(at 333.375 330.2 0)
 			(effects
 				(font
@@ -18590,7 +18610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2dc2f2f-894b-4ae6-9ab4-41e7425da60f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 376.56 325.95 0)
 			(effects
 				(font
@@ -18640,7 +18660,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18758,7 +18778,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC357"
+		(property "Footprint" "DatLibrery:PC357"
 			(at 234.95 325.755 0)
 			(effects
 				(font
@@ -19059,7 +19079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -19068,7 +19088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.digikey.de/en/supplier-centers/yageo"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -19077,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -19086,7 +19106,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS06031K00FKEA"
+		(property "PartNumber" "RC1206FR-071KL"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -19095,7 +19115,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS06031K00FKEA/5866934"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/yageo/RC1206FR-071KL/728387"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -19337,7 +19357,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:RESISTOR_0603_NOOUT")
-		(at 193.675 363.22 90)
+		(at 194.31 363.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19345,7 +19365,7 @@
 		(dnp no)
 		(uuid "b95330a4-b6bc-4f3a-b89c-e219c07d9124")
 		(property "Reference" "R28"
-			(at 191.135 363.22 0)
+			(at 191.77 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +19373,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 193.675 363.22 0)
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19362,8 +19382,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.675 363.22 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19372,7 +19392,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
-			(at 193.675 363.22 0)
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19380,8 +19400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
-			(at 193.675 363.22 0)
+		(property "Description" "0 Ohms Jumper Chip Resistor 1206 (3216 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19390,7 +19410,7 @@
 			)
 		)
 		(property "PartNumber" "RMCF0603ZT0R00"
-			(at 193.675 363.22 0)
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,7 +19419,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/stackpole-electronics-inc/RMCF0603ZT0R00/1756908"
-			(at 193.675 363.22 0)
+			(at 194.31 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,7 +19758,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C3216TT(A)"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 222.885 359.41 0)
 			(effects
 				(font
@@ -19747,7 +19767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A226ME15-01.pdf"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
 			(at 222.885 359.41 0)
 			(effects
 				(font
@@ -19756,372 +19776,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TANTAL_CASE A(3216)"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 222.885 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF PINS" "2"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" "2000"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" "1.6mm"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAKAGE CURRENT" "1uA"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RADIATION HARDENING" "No"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISSIPATION FACTOR" "6%"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "1206"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "General Purpose"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIELECTRIC MATERIAL" "Tantalum"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" "1206"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "10V"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SERIES" "T491"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POLARITY" "Polar"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" "3216"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.6mm"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" "10V"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "0.063inch"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD PITCH" "1.2mm"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "3.2mm"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.071inch"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "10uF"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE" "1.6mm"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.000571oz"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIFE (HOURS)" "2000Hour"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONSTRUCTION" "Flat"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "10V"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "SMD/SMT"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC" "No SVHC"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR (EQUIVALENT SERIES RESISTANCE)" "4R"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 220.091 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -20134,7 +19794,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/murata-electronics/GRM188R61A226ME15D/5027561"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL21A226MPQNNNE/3888568"
 			(at 222.885 359.41 0)
 			(effects
 				(font
@@ -20357,7 +20017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0805"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 164.465 326.39 0)
 			(effects
 				(font
@@ -20366,7 +20026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 164.465 326.39 0)
 			(effects
 				(font
@@ -20375,7 +20035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC-0805(2012)"
+		(property "Description" "47 pF ±5% 100V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
 			(at 164.465 326.39 0)
 			(effects
 				(font
@@ -20384,7 +20044,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "CL10C470JC81PNC"
+		(property "PartNumber" "CC1206JRNPO0BN470"
 			(at 164.465 326.39 0)
 			(effects
 				(font
@@ -20393,7 +20053,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNG/3894467"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/yageo/CC1206JRNPO0BN470/5884455"
 			(at 164.465 326.39 0)
 			(effects
 				(font
@@ -20531,7 +20191,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C3216TT(A)"
+		(property "Footprint" "DatLibrery:CAP330uF6V"
 			(at 343.535 295.91 0)
 			(effects
 				(font
@@ -20960,7 +20620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4517932-cddc-47e7-b0aa-55dcb4d5f7e3")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 386.72 288.485 0)
 			(effects
 				(font
@@ -21010,7 +20670,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -21128,7 +20788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.385 326.39 0)
 			(effects
 				(font
@@ -21137,7 +20797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 159.385 326.39 0)
 			(effects
 				(font
@@ -21164,7 +20824,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS06031M00FKEA/5866949"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD105J/10235908"
 			(at 159.385 326.39 0)
 			(effects
 				(font
@@ -21300,7 +20960,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-1808"
+		(property "Footprint" "DatLibrery:10uF-50V"
 			(at 381.005 303.09 0)
 			(effects
 				(font
@@ -21387,7 +21047,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "IND-0805"
+		(property "Footprint" "DatLibrery:IND-0805"
 			(at 327.025 289.56 0)
 			(effects
 				(font
@@ -21456,7 +21116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d02d80cc-36ef-49e9-9894-93bd577dea36")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 364.49 117.475 0)
 			(effects
 				(font
@@ -21506,7 +21166,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21779,7 +21439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-0805"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 146.685 326.39 0)
 			(effects
 				(font
@@ -21797,7 +21457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC-0805(2012)"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 146.685 326.39 0)
 			(effects
 				(font
@@ -21806,7 +21466,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "CL21B105KBFNNNG"
+		(property "PartNumber" "CL31B105KBHNNNE"
 			(at 146.685 326.39 0)
 			(effects
 				(font
@@ -21815,7 +21475,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNG/3894467"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/samsung-electro-mechanics/CL31B105KBHNNNE/3886726"
 			(at 146.685 326.39 0)
 			(effects
 				(font
@@ -22044,7 +21704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e00a33e5-a18b-42e3-9c5a-329df632f134")
-		(property "Reference" "#U$019"
+		(property "Reference" "#U$018"
 			(at 342.9 81.28 0)
 			(effects
 				(font
@@ -22095,7 +21755,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#U$019")
+					(reference "#U$018")
 					(unit 1)
 				)
 			)
@@ -22128,7 +21788,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOT23-3L"
+		(property "Footprint" "DatLibrery:SOT23-3L"
 			(at 343.54 322.14 0)
 			(effects
 				(font
@@ -22302,7 +21962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C6032TT(C)"
+		(property "Footprint" "DatLibrery:22uF - 10V"
 			(at 302.895 295.91 0)
 			(effects
 				(font
@@ -22879,7 +22539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 222.885 347.98 0)
 			(effects
 				(font
@@ -22888,7 +22548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20031/m25_si.pdf"
 			(at 222.885 347.98 0)
 			(effects
 				(font
@@ -22897,7 +22557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" "5.1 Ohms ±5% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Flame Retardant Coating, Fusible, Pulse Withstanding, Safety Thin Film"
 			(at 222.885 347.98 0)
 			(effects
 				(font
@@ -22906,7 +22566,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS06035R10FKEA"
+		(property "PartNumber" "M251206BB5108JP500"
 			(at 222.885 347.98 0)
 			(effects
 				(font
@@ -22915,7 +22575,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS06035R10FKEA/5868231"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-beyschlag-draloric-bc-components/M251206BB5108JP500/3455995"
 			(at 222.885 347.98 0)
 			(effects
 				(font
@@ -23031,7 +22691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C3216TT(A)"
+		(property "Footprint" "DatLibrery:10Uf 10v"
 			(at 310.515 295.91 0)
 			(effects
 				(font
@@ -23719,7 +23379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f419c7a3-4130-4395-94c8-dc8716d031bb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 349.25 206.375 0)
 			(effects
 				(font
@@ -23769,7 +23429,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -24266,7 +23926,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP-1808"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
 			(at 100.965 326.39 0)
 			(effects
 				(font
@@ -24275,7 +23935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3226/18125G106ZAT2A_DS.pdf"
 			(at 100.965 326.39 0)
 			(effects
 				(font
@@ -24284,7 +23944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC-1808(4520)"
+		(property "Description" "10 µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 1812 (4532 Metric)"
 			(at 100.965 326.39 0)
 			(effects
 				(font
@@ -24293,7 +23953,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "GRM21BR61H106KE43K"
+		(property "PartNumber" "18125G106ZAT2A"
 			(at 100.965 326.39 0)
 			(effects
 				(font
@@ -24302,7 +23962,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/murata-electronics/GRM21BR61H106KE43K/15191954"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/kyocera-avx/18125G106ZAT2A/6149369"
 			(at 100.965 326.39 0)
 			(effects
 				(font
