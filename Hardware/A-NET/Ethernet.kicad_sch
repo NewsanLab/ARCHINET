@@ -12184,7 +12184,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS06031M00FKEA/5866949"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD105J/10235908"
 			(at 112.395 120.015 0)
 			(effects
 				(font
@@ -18805,7 +18805,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RC1206FR-071KL"
+		(property "PartNumber" "RCS06031K00FKEA"
 			(at 283.21 333.375 0)
 			(effects
 				(font
@@ -18814,7 +18814,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/yageo/RC1206FR-071KL/728387"
+		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-dale/RCS06035K10FKEA/5868559"
 			(at 283.21 333.375 0)
 			(effects
 				(font
