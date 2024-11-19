@@ -4077,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.digikey.de/en/supplier-centers/yageo"
 			(at 31.75 40.64 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.digikey.de/en/supplier-centers/yageo"
 			(at 269.875 51.435 0)
 			(effects
 				(font
@@ -4544,15 +4544,6 @@
 			)
 		)
 		(property "Description" "WiFi 802.11a/b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace"
-			(at 58.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NumPart" "1965-ESP32-S3-WROOM-1-N8DKR-ND"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -6573,7 +6564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
+		(property "Datasheet" "https://www.digikey.de/en/supplier-centers/yageo"
 			(at 229.235 50.165 0)
 			(effects
 				(font

@@ -2923,7 +2923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18ca8d70-7071-4024-a120-c491593702be")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 63.5 85.09 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b9c2e4c-f0c7-4e5d-a013-dc12cdd5531c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 190.754 66.294 0)
 			(effects
 				(font
@@ -3034,7 +3034,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "686c878d-9c8e-447d-854b-3a3c33bf3330")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3197,7 +3197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83798005-2d67-49a1-b2e0-91958a0fe899")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 171.704 45.974 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3348,7 +3348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9809345f-54c4-4ff9-b4a7-053e6154bb83")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 97.155 88.9 0)
 			(effects
 				(font
@@ -3396,7 +3396,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d4a3d5-611a-4da2-8b95-8148faf659e2")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -3551,7 +3551,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5a5d63f-69d0-44d0-aa54-ddb8b5f319d4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -3702,7 +3702,7 @@
 		(instances
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/ea869af3-c719-4069-98d4-3aadadb82bc8"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

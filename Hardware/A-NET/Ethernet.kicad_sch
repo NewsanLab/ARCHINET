@@ -340,23 +340,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "U3"
+				(at 25.4 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "DPA423-PN"
+				(at 25.4 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "DatLibrery:DIP-08"
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,7 +367,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.power.com/sites/default/files/documents/dpa_family_datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,6 +377,42 @@
 				)
 			)
 			(property "Description" "Highly Integrated DC-DC Converter ICs for Power over Ethernet & Telecom Applications"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NumPart" "DPA423GN-TL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LinkPart" "https://www.digikey.de/de/products/detail/power-integrations/DPA423GN-TL/865286"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "DPA423GN-TL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/de/products/detail/power-integrations/DPA423GN-TL/865286"
 				(at 0 0 0)
 				(effects
 					(font
@@ -812,32 +850,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "U4"
+				(at 16.51 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "PC357"
+				(at 16.51 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "DatLibrery:PC357"
 				(at 0 0 0)
 				(effects
 					(font
@@ -846,7 +877,52 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://global.sharp/products/device/lineup/data/pdf/datasheet/pc357n_e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Optoisolator Transistor Output 3750Vrms 1 Channel 4-Mini-Flat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NumPart" "PC357N2J000F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LinkPart" "https://www.digikey.de/en/products/detail/sharp-socle-technology/PC357N2J000F/720531"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "PC357N2J000F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/en/products/detail/sharp-socle-technology/PC357N2J000F/720531"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1065,32 +1141,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "L2"
+				(at -4.254 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SM13117EL"
+				(at 2.54 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "DatLibrery:SM13117EL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1099,7 +1168,52 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sm13117el.pdf?sfvrsn=e77247f6_2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Over Ethernet (PoE) For For DC/DC Converters SMPS Transformer 1500Vrms Isolation 250kHz Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NumPart" "SM13117EL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LinkPart" "https://www.digikey.de/en/products/detail/bourns-inc/SM13117EL/10719358?s=N4IgTCBcDaIMoFkCMBmJSDsBRAMiAugL5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "SM13117EL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/en/products/detail/bourns-inc/SM13117EL/10719358?s=N4IgTCBcDaIMoFkCMBmJSDsBRAMgAhAF0BfIA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3454,7 +3568,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "IC1"
 				(at 7.62 10.16 0)
 				(effects
 					(font
@@ -3463,7 +3577,7 @@
 					(justify right top)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "74AHC1G125"
 				(at -5.08 -10.16 0)
 				(effects
 					(font
@@ -3472,7 +3586,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ArchiBot:SOT23-5L"
+			(property "Footprint" "NSARCHI:74AHC1G125"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3481,7 +3595,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G125.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3490,7 +3604,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SC-74A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NumPart" "1727-6018-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "SN74AHC1G125DCKR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/en/products/detail/texas-instruments/SN74AHC1G125DCKR/373804"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4539,7 +4680,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "U$1"
 				(at -25.4 33.02 0)
 				(effects
 					(font
@@ -4549,7 +4690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "W5500"
 				(at -25.4 -27.94 0)
 				(effects
 					(font
@@ -4558,7 +4699,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ArchiBot:LQFP48"
+			(property "Footprint" "NSARCHI:W5500"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4567,7 +4708,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4576,7 +4717,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WIZNET W5500 Ethernet Controller\n\n• 3.3V IO with 5V tolerant pins"
+			(property "Description" "Ethernet Controller 10/100 Base-T/TX PHY SPI Interface 48-LQFP (7x7)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "W5500"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/en/products/detail/wiznet/W5500/4425702"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5994,7 +6153,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X3"
+			(property "Reference" "X1"
 				(at -7.62 19.05 0)
 				(effects
 					(font
@@ -6049,6 +6208,24 @@
 				)
 			)
 			(property "LinkPart" "https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/7499210121A/4429047?s=N4IgTCBcDaIOwBYCcSwEYAMb0EEQF0BfIA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "7499210121A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PurchaseLink" "https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/7499210121A/4429047?s=N4IgTCBcDaIOwBYCcSwEYAMb0EEQF0BfIA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11328,6 +11505,16 @@
 		)
 		(uuid "48fef9de-4c33-4a81-b7c3-1b8a3d905b2a")
 	)
+	(text "V-2.0"
+		(exclude_from_sim no)
+		(at 406.4 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "589b55db-7e72-4228-8a07-6d7d7358f53b")
+	)
 	(text "\n - SPDLED: This shows the Speed status of the connected link. \n		   Low: 100Mbps,High: 10Mbps.\n - LINKLED: Link status. \n			Low: Link is established ,High: Link is not established.\n - DUPLED: This shows the Duplex status for the connected link.\n		   Low: Full-duplex mode , High: Half-duplex mode .\n - ACTLED: This shows that there is Carrier sense (CRS) from the active \n		   Physical Medium Sub-layer (PMD) during TX or RX activity. \n   		   Low: Carrier sense from the active PMD , High: No carrier sense."
 		(exclude_from_sim no)
 		(at 40.005 209.423 0)
@@ -11373,16 +11560,6 @@
 		)
 		(uuid "aa4e1dfb-9219-4a9b-a892-9e3a2319c90a")
 	)
-	(text "matriz x4"
-		(exclude_from_sim no)
-		(at 194.945 60.325 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "afdb4d23-d810-48e1-a852-089ee69c3a3a")
-	)
 	(text "Entrada INTN\n\n "
 		(exclude_from_sim no)
 		(at 26.924 38.1 0)
@@ -11418,16 +11595,6 @@
 			)
 		)
 		(uuid "c3c3880d-0633-42d0-96ed-deee0df1f761")
-	)
-	(text "matriz x4"
-		(exclude_from_sim no)
-		(at 66.675 177.165 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0cb51ff-9f6e-4754-a314-efff23a97abf")
 	)
 	(text "150mAdc"
 		(exclude_from_sim no)
@@ -12718,7 +12885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NSARCHI:SJ"
+		(property "Footprint" "anetLib:Jumper"
 			(at 155.575 69.215 0)
 			(effects
 				(font
@@ -13603,24 +13770,6 @@
 				(hide yes)
 			)
 		)
-		(property "NumPart" "DPA423GN-TL"
-			(at 173.995 336.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/de/products/detail/power-integrations/DPA423GN-TL/865286"
-			(at 173.995 336.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "DPA423GN-TL"
 			(at 173.995 336.11 0)
 			(effects
@@ -14113,24 +14262,6 @@
 				(hide yes)
 			)
 		)
-		(property "NumPart" "2N7002"
-			(at 139.065 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/diotec-semiconductor/2N7002/13163336"
-			(at 139.065 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "2N7002"
 			(at 139.065 367.03 0)
 			(effects
@@ -14504,24 +14635,6 @@
 				(hide yes)
 			)
 		)
-		(property "NumPart" "SM13117EL"
-			(at 271.78 296.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/bourns-inc/SM13117EL/10719358?s=N4IgTCBcDaIMoFkCMBmJSDsBRAMiAugL5A"
-			(at 271.78 296.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "SM13117EL"
 			(at 271.78 296.545 0)
 			(effects
@@ -14666,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NSARCHI:SJ"
+		(property "Footprint" "anetLib:Jumper"
 			(at 168.275 69.215 0)
 			(effects
 				(font
@@ -15113,7 +15226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40047/597d.pdf"
+		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/HXERA-e.PDF"
 			(at 386.72 302.455 0)
 			(effects
 				(font
@@ -15122,7 +15235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AL-CAP D: 8.0mm SMD"
+		(property "Description" "470 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C"
 			(at 386.72 302.455 0)
 			(effects
 				(font
@@ -15131,367 +15244,7 @@
 				(hide yes)
 			)
 		)
-		(property "NUMBER OF PINS" "2"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" "2000"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" "1.6mm"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAKAGE CURRENT" "1uA"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RADIATION HARDENING" "No"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISSIPATION FACTOR" "6%"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "1206"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "General Purpose"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIELECTRIC MATERIAL" "Tantalum"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" "1206"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "10V"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SERIES" "T491"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POLARITY" "Polar"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" "3216"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.6mm"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" "10V"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "0.063inch"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD PITCH" "1.2mm"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "3.2mm"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.071inch"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "10uF"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE" "1.6mm"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.000571oz"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIFE (HOURS)" "2000Hour"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONSTRUCTION" "Flat"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "10V"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "SMD/SMT"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC" "No SVHC"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR (EQUIVALENT SERIES RESISTANCE)" "4R"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 383.926 299.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "CAP TANT 470UF 20% 20V 3226"
+		(property "PartNumber" "PCG1C471MCL1GS"
 			(at 386.72 302.455 0)
 			(effects
 				(font
@@ -15500,7 +15253,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/vishay-sprague/597D477X0020H2T/15908368"
+		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/nichicon/PCG1C471MCL1GS/1662485"
 			(at 386.72 302.455 0)
 			(effects
 				(font
@@ -15876,7 +15629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NSARCHI:SJ"
+		(property "Footprint" "anetLib:Jumper"
 			(at 180.975 69.215 0)
 			(effects
 				(font
@@ -16051,24 +15804,6 @@
 			)
 		)
 		(property "Description" "Silicon Schottky Diode"
-			(at 137.165 324.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NumPart" "SMAJ12"
-			(at 137.165 324.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/taiwan-semiconductor-corporation/SMAJ12/18722934"
 			(at 137.165 324.045 0)
 			(effects
 				(font
@@ -17853,24 +17588,6 @@
 				(hide yes)
 			)
 		)
-		(property "NumPart" "RBR5L40ADDTE25"
-			(at 292.735 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/rohm-semiconductor/RBR5L40ADDTE25/16022363"
-			(at 292.735 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "RBR5L40ADDTE25"
 			(at 292.735 289.56 0)
 			(effects
@@ -18805,24 +18522,6 @@
 				(hide yes)
 			)
 		)
-		(property "NumPart" "PC357N2J000F"
-			(at 234.95 325.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/sharp-socle-technology/PC357N2J000F/720531"
-			(at 234.95 325.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "PC357N2J000F"
 			(at 234.95 325.755 0)
 			(effects
@@ -18889,7 +18588,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NSARCHI:74AHC1G125"
+		(property "Footprint" "anetLib:74AHC1G125"
 			(at 361.95 190.5 0)
 			(effects
 				(font
@@ -19554,7 +19253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NSARCHI:RB1-125BAG1A"
+		(property "Footprint" "anetLib:7499210121A"
 			(at 377.19 81.28 0)
 			(effects
 				(font
@@ -19573,24 +19272,6 @@
 			)
 		)
 		(property "Description" "1 Port RJ45Through Hole 10/100 Base-T, AutoMDIX, Power over Ethernet (PoE)"
-			(at 377.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NumPart" "7499210121A"
-			(at 377.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/7499210121A/4429047?s=N4IgTCBcDaIOwBYCcSwEYAMb0EEQF0BfIA"
 			(at 377.19 81.28 0)
 			(effects
 				(font
@@ -20218,366 +19899,6 @@
 				(hide yes)
 			)
 		)
-		(property "NUMBER OF PINS" "2"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" "2000"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" "1.6mm"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAKAGE CURRENT" "1uA"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RADIATION HARDENING" "No"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISSIPATION FACTOR" "6%"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "1206"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "General Purpose"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIELECTRIC MATERIAL" "Tantalum"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" "1206"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "10V"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SERIES" "T491"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POLARITY" "Polar"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" "3216"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.6mm"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" "10V"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "0.063inch"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD PITCH" "1.2mm"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "3.2mm"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.071inch"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "10uF"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE" "1.6mm"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.000571oz"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LIFE (HOURS)" "2000Hour"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONSTRUCTION" "Flat"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "10V"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "SMD/SMT"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC" "No SVHC"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR (EQUIVALENT SERIES RESISTANCE)" "4R"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 340.741 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "T490B337M006ATE800"
 			(at 343.535 295.91 0)
 			(effects
@@ -20797,7 +20118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
 			(at 159.385 326.39 0)
 			(effects
 				(font
@@ -21807,24 +21128,6 @@
 			)
 		)
 		(property "Description" "Adjustable precision shunt regulator 3-SOT-23 -40 to 85"
-			(at 343.54 322.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NumPart" "TL431ID"
-			(at 343.54 322.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LinkPart" "Shunt Voltage Reference IC Adjustable 2.495V 36 VV ±2.2% 100 mA 8-SOIC"
 			(at 343.54 322.14 0)
 			(effects
 				(font
@@ -23529,7 +22832,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NSARCHI:W5500"
+		(property "Footprint" "anetLib:W5500"
 			(at 165.735 120.015 0)
 			(effects
 				(font

@@ -182,6 +182,7 @@
       "track_widths": [
         0.0,
         0.3,
+        0.45,
         0.6,
         1.0,
         1.4
@@ -530,7 +531,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "A-NET.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -567,7 +568,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -580,13 +581,265 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE",
+          "name": "CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (IMPERIAL)",
+          "name": "CASE CODE (IMPERIAL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (METRIC)",
+          "name": "CASE CODE (METRIC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE/PACKAGE",
+          "name": "CASE/PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONSTRUCTION",
+          "name": "CONSTRUCTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEPTH",
+          "name": "DEPTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIELECTRIC MATERIAL",
+          "name": "DIELECTRIC MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DISSIPATION FACTOR",
+          "name": "DISSIPATION FACTOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "name": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FEATURES",
+          "name": "FEATURES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT - SEATED (MAX)",
+          "name": "HEIGHT - SEATED (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD FREE",
+          "name": "LEAD FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD PITCH",
+          "name": "LEAD PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAKAGE CURRENT",
+          "name": "LEAKAGE CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LENGTH",
+          "name": "LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIFE (HOURS)",
+          "name": "LIFE (HOURS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LinkPart",
+          "name": "LinkPart",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX OPERATING TEMPERATURE",
+          "name": "MAX OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MIN OPERATING TEMPERATURE",
+          "name": "MIN OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PINS",
+          "name": "NUMBER OF PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NumPart",
+          "name": "NumPart",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE QUANTITY",
+          "name": "PACKAGE QUANTITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POLARITY",
+          "name": "POLARITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartNumber",
+          "name": "PartNumber",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PurchaseLink",
+          "name": "PurchaseLink",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "RADIATION HARDENING",
+          "name": "RADIATION HARDENING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REACH SVHC",
+          "name": "REACH SVHC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS COMPLIANT",
+          "name": "ROHS COMPLIANT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES",
+          "name": "SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SIZE",
+          "name": "SIZE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TERMINATION",
+          "name": "TERMINATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING",
+          "name": "VOLTAGE RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (DC)",
+          "name": "VOLTAGE RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WEIGHT",
+          "name": "WEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WIDTH",
+          "name": "WIDTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
-      "sort_asc": true,
-      "sort_field": "Referencia"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -649,5 +902,7 @@
       "Archi"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "SHEETTOTAL": "1"
+  }
 }
