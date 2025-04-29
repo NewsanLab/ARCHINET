@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Messenger</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .chat-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+        .msg {
+            max-width: 70%;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            border-radius: 12px;
+            display: inline-block;
+        }
+        .user {
+            align-self: flex-end;
+            background: #bde0fe;
+        }
+        .bot {
+            align-self: flex-start;
+            background: #e0e0e0;
+        }
+        .input-container {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+        input {
+            flex: 1;
+            padding: 1rem;
+            border: none;
+            font-size: 1rem;
+        }
+        button {
+            padding: 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            background: #008cba;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container" id="chat">
+        <div class="msg bot">Hello!</div>
+    </div>
+    <div class="input-container">
+        <input type="text" id="mensaje" placeholder="Escribe un mensaje..." />
+        <button onclick="enviar()">➤</button>
+    </div>
+
+    <script>
+        function enviar() {
+            const input = document.getElementById("mensaje");
+            const texto = input.value.trim();
+            if (!texto) return;
+
+            const chat = document.getElementById("chat");
+            const msg = document.createElement("div");
+            msg.className = "msg user";
+            msg.textContent = texto;
+            chat.appendChild(msg);
+            input.value = "";
+
+            fetch("/mensaje", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ texto })
+            });
+
+            chat.scrollTop = chat.scrollHeight;
+        }
+    </script>
+</body>
+</html>

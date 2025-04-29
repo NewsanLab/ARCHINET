@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Picker</title>
+</head>
+<body style="font-family: sans-serif; text-align: center;">
+  <h2>Matriz de Color</h2>
+  <input type="color" id="picker" value="#2b7a3f" style="width: 200px; height: 100px;"/>
+  <script>
+    const picker = document.getElementById("picker");
+    picker.addEventListener("input", () => {
+      fetch("/color", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ color: picker.value })
+      });
+    });
+  </script>
+</body>
+</html>
