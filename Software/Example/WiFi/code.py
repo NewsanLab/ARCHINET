@@ -38,7 +38,16 @@ class ESP32UART:
                     except Exception:
                         texto = "<error decoding>"
                     if texto:
+                        #Detectar fin de transmisión explícito
+                        try:
+                            json_obj = json.loads(texto)
+                            if isinstance(json_obj, dict) and json_obj.get("end") is True:
+                                return  #  Salir de inmediato si se recibe {"end": true}
+                        except Exception:
+                            pass  # No era JSON, continuar
+                        
                         print(texto)
+        # Si el timeout se agota pero quedó algo sin imprimir
         if buffer:
             try:
                 texto = buffer.decode().strip()
@@ -46,6 +55,7 @@ class ESP32UART:
                 texto = "<error decoding>"
             if texto:
                 print("Respuesta parcial:", texto)
+
 
 def main():
     # --- Reset del ESP32 usando GP11 como pin temporal ---
@@ -62,12 +72,6 @@ def main():
 
     esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP10)
 
-    html = """
-    <html><head><style>
-    body { background-color: #222; color: #fff; text-align: center; font-family: sans-serif; }
-    h1 { color: #4CAF50; }
-    </style></head><body><h1>Hola desde RP2040</h1></body></html>
-    """
 
     if not esp.esperar_ready(timeout=10):
         print("ESP32 no está listo.")
@@ -77,47 +81,32 @@ def main():
 
     print("\n--- TEST: SCAN ---")
     esp.solicitar_comando({"cmd": "SCAN"})
-    esp.leer_respuesta(timeout=15)
+    esp.leer_respuesta(timeout=80)
 
     print("\n--- TEST: CONNECT ---")
-    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "xxxx", "pass": "xxxx"})
-    esp.leer_respuesta(timeout=10)
-
-    print("\n--- TEST: HTML ---")
-    esp.solicitar_comando({"cmd": "HTML", "html": html})
-    esp.leer_respuesta(timeout=5)
+    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "NS-Guest-USH", "pass": "visitanewsan05"})
+    esp.leer_respuesta(timeout=15)
 
     print("\n--- TEST: GET (api) ---")
     esp.solicitar_comando({
         "cmd": "GET",
         "url": "http://wifitest.adafruit.com/testwifi/index.html"
     })
-    esp.leer_respuesta(timeout=10)
+    esp.leer_respuesta(timeout=50)
     print("\n--- TEST: GET (api) ---")
     esp.solicitar_comando({
         "cmd": "GET",
         "url": "http://jsonplaceholder.typicode.com/todos/1"
     })
-    esp.leer_respuesta(timeout=10)
-
-    print("\n--- TEST: AP (crear punto de acceso) ---")
-    esp.solicitar_comando({
-        "cmd": "AP",
-        "ssid": "RP2040_AP",
-        "pass": "clave1234"
-    })
-    esp.leer_respuesta(timeout=5)
+    esp.leer_respuesta(timeout=50)
 
     print("\n--- TEST: DISCONNECT (WiFi) ---")
     esp.solicitar_comando({"cmd": "DISCONNECT", "target": "WiFi"})
-    esp.leer_respuesta(timeout=3)
+    esp.leer_respuesta(timeout=50)
 
-    print("\n--- TEST: DISCONNECT (AP) ---")
-    esp.solicitar_comando({"cmd": "DISCONNECT", "target": "AP"})
-    esp.leer_respuesta(timeout=3)
     print("\n--- TEST: CONNECT ---")
-    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "xxxx", "pass": "xxxx"})
-    esp.leer_respuesta(timeout=10)
+    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "NS-Guest-USH", "pass": "visitanewsan05"})
+    esp.leer_respuesta(timeout=50)
 
     print("\n--- INICIANDO ENVÍO PERIÓDICO ---")
     time.sleep(3)
@@ -136,5 +125,7 @@ def main():
             print("ESP32 no listo.")
         time.sleep(5)
 
+
 if __name__ == "__main__":
     main()
+

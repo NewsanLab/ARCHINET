@@ -49,8 +49,12 @@ void startAccessPoint(const String &ssid, const String &pass) {
   if (result) {
     IPAddress IP = WiFi.softAPIP();
     UART1.printf("[ESP32] AP iniciado: %s | IP: %s\n", ssid.c_str(), IP.toString().c_str());
+    UART1.println("{\"end\": true}");
+
   } else {
     UART1.println("[ESP32] Error al iniciar AP");
+    UART1.println("{\"end\": true}");
+
   }
 
 }
@@ -58,6 +62,8 @@ void startAccessPoint(const String &ssid, const String &pass) {
 void stopAccessPoint() {
   WiFi.softAPdisconnect(true);
   UART1.println("[ESP32] AP detenido");
+  UART1.println("{\"end\": true}");
+
 }
 
 //============End POINT==================
@@ -84,6 +90,8 @@ int findEndpoint(const String &ep) {
 void handleHttpGet(const String &url) {
   if (WiFi.status() != WL_CONNECTED) {
     UART1.println("[ESP32] No conectado a WiFi, no se puede hacer GET.");
+    UART1.println("{\"end\": true}");  //
+
     return;
   }
 
@@ -93,7 +101,6 @@ void handleHttpGet(const String &url) {
   int httpCode = http.GET();
   if (httpCode > 0) {
     UART1.printf("[ESP32] GET %s -> Código: %d\n", url.c_str(), httpCode);
-
     String payload = http.getString();  // Obtener todo el contenido de la respuesta
     payload.trim();  // Eliminar espacios o saltos al principio o final
     
@@ -106,8 +113,11 @@ void handleHttpGet(const String &url) {
   } else {
     UART1.printf("[ESP32] Error en GET -> Código: %d\n", httpCode);
   }
+  
 
   http.end();
+  UART1.println("{\"end\": true}");  //
+
 }
 //========= Manejo dinámico de endpoint================
 void handleDynamic() {
@@ -176,6 +186,7 @@ void scanNetworks() {
 
   WiFi.scanDelete();  // Limpiar memoria
   Serial.println("[ESP32] Escaneo terminado.");
+  UART1.println("{\"end\": true}");  //fin de carrera
 }
 //=============Connect a WIFI ===========
 void connectToWiFi(const String &ssid, const String &pass) {
@@ -196,16 +207,22 @@ void connectToWiFi(const String &ssid, const String &pass) {
     //UART1.println("\n[ESP32] Conexión WiFi exitosa.");
     //UART1.printf("[ESP32] IP: %s\n", WiFi.localIP().toString().c_str());
     UART1.printf("[ESP32] OK|IP: %s\n", WiFi.localIP().toString().c_str());
+    UART1.println("{\"end\": true}");  //fin de carrera
   } else {
     UART1.printf("\n[ESP32] Error al conectar a la red: %s\n", ssid.c_str());
+    UART1.println("{\"end\": true}");  //fin de carrera
   }
 }
 void disconnectWiFi() {
   if (WiFi.status() == WL_CONNECTED) {
     WiFi.disconnect(true);
     UART1.println("[ESP32] WiFi desconectado.");
+    UART1.println("{\"end\": true}");
+
   } else {
     UART1.println("[ESP32] No está conectado a ninguna red.");
+    UART1.println("{\"end\": true}");
+
   }
 }
 //==============Lista de commandos =================
@@ -239,6 +256,7 @@ void handleCommand(const String &cmd) {
       String target = doc["target"] | "WiFi";
       if (target == "WiFi") {
         disconnectWiFi();
+        
       } else if (target == "AP") {
         stopAccessPoint();
       }
@@ -248,8 +266,12 @@ void handleCommand(const String &cmd) {
       String pass = doc["pass"] | "";
       if (ssid != "" && pass != "") {
         startAccessPoint(ssid, pass);
+        UART1.println("{\"end\": true}");
+
       } else {
         UART1.println("[ESP32] Faltan datos para AP");
+        UART1.println("{\"end\": true}");
+
       }
 
     } if (command == "WebServer") {
@@ -277,6 +299,7 @@ void handleCommand(const String &cmd) {
 
     setEndpointData(ep, jsonData);
     UART1.printf("[ESP32] Endpoint /%s actualizado\n", ep.c_str());
+    UART1.println("{\"end\": true}"); 
 }
  else if (command == "GET") {
       String url = doc["url"] | "";
@@ -294,6 +317,7 @@ void handleCommand(const String &cmd) {
   } else {
     UART1.println("[ESP32] No se encontró el campo 'html'.");
   }
+    UART1.println("{\"end\": true}"); 
 }
 
     return;  // Finaliza procesamiento JSON
