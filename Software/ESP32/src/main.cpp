@@ -416,6 +416,20 @@ void handleCommand(const String &cmd)
         UART1.println("{\"end\": true}");
       }
     }
+    else if (command == "PING")
+    {
+      UART1.println("[ESP32] PING recibido. Estoy activo.");
+      if (WiFi.status() == WL_CONNECTED)
+      {
+        UART1.printf("[ESP32] IP actual: %s\n", WiFi.localIP().toString().c_str());
+      }
+      else
+      {
+        UART1.println("[ESP32] No conectado a WiFi.");
+      }
+      UART1.println("{\"end\": true}");
+    }
+
     else if (command == "POST")
     {
       String url = doc["url"] | "";
@@ -472,6 +486,12 @@ void handleCommand(const String &cmd)
       String url = doc["url"] | "";
       if (url != "")
         handleHttpGet(url);
+    }
+    else if (command == "INFO")
+    {
+      UART1.printf("{\"chip\":\"ESP32-S3\",\"ip\":\"%s\",\"rssi\":%d,\"heap\":%d}\n",
+                   WiFi.localIP().toString().c_str(), WiFi.RSSI(), ESP.getFreeHeap());
+      UART1.println("{\"end\": true}");
     }
     /* else if (command == "HTML")
      {
