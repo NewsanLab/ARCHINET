@@ -76,7 +76,7 @@ void handleHtmlPart(const JsonDocument &doc)
   htmlBuffer += content;
   receivedParts++;
 
-  //UART1.printf("[ESP32] Recibido fragmento %d/%d\n", index + 1, total);
+  // UART1.printf("[ESP32] Recibido fragmento %d/%d\n", index + 1, total);
 
   // Cuando llegan todos los fragmentos, actualizo la página HTML
   if (receivedParts == expectedTotalParts)
@@ -178,6 +178,39 @@ void handleHttpGet(const String &url)
 
   http.end();
   UART1.println("{\"end\": true}"); //
+}
+//================================ Solicitud POST ======================================================
+void handleHttpPost(const String &url, const String &jsonPayload)
+{
+  if (WiFi.status() != WL_CONNECTED)
+  {
+    UART1.println("[ESP32] No conectado a WiFi, no se puede hacer POST.");
+    UART1.println("{\"end\": true}");
+    return;
+  }
+
+  HTTPClient http;
+  http.begin(url);
+  http.addHeader("Content-Type", "application/json");
+
+  int httpCode = http.POST(jsonPayload);
+
+  if (httpCode > 0)
+  {
+    UART1.printf("[ESP32] POST %s -> Código: %d\n", url.c_str(), httpCode);
+    String response = http.getString();
+    response.replace("\n", " ");
+    response.replace("\r", " ");
+    UART1.print(response);
+    UART1.println();
+  }
+  else
+  {
+    UART1.printf("[ESP32] Error en POST -> Código: %d\n", httpCode);
+  }
+
+  http.end();
+  UART1.println("{\"end\": true}");
 }
 
 //================================ Manejo dinámico de endpoint==========================================
@@ -380,6 +413,24 @@ void handleCommand(const String &cmd)
       else
       {
         UART1.println("[ESP32] Faltan datos para AP");
+        UART1.println("{\"end\": true}");
+      }
+    }
+    else if (command == "POST")
+    {
+      String url = doc["url"] | "";
+      String payload;
+      if (doc.containsKey("data"))
+      {
+        serializeJson(doc["data"], payload);
+      }
+      if (url != "" && payload != "")
+      {
+        handleHttpPost(url, payload);
+      }
+      else
+      {
+        UART1.println("[ESP32] POST mal formado: falta 'url' o 'data'");
         UART1.println("{\"end\": true}");
       }
     }
