@@ -99,18 +99,35 @@ def main():
         print("ESP32 no está listo.")
         return
 
-    # Enviar comando para conectar a WiFi
-    print("\n--- TEST: CONNECT ---")
-    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "xxx", "pass": "xxx"})
+    # Crear punto de acceso para transmitir IP por defecto 192.168.4.1
+    print("\n--- TEST: AP (crear punto de acceso) ---")
+    esp.solicitar_comando({
+        "cmd": "AP",
+        "ssid": "RP2040_AP",
+        "pass": "clave1234"
+    })
+    esp.leer_respuesta(timeout=5)
 
-    esp.leer_respuesta(timeout=100)
-    time.sleep(10)
-    #Desconectar WiFi segun la target
-    print("\n--- TEST: DISCONNECT (WiFi) ---")
-    esp.solicitar_comando({"cmd": "DISCONNECT", "target": "WiFi"})
-    esp.leer_respuesta(timeout=50)
+    print("\n--- INICIANDO API ---")
+    time.sleep(3)
 
- 
+    # === LOOP PERIÓDICO CON TEMPERATURA ===
+    while True:
+        if esp.esperar_ready(timeout=1):
+            temperatura = round(random.uniform(20, 30), 1)
+            #Comando para crear una API para visualizar los datos remotamente atravez de http://{ip}/{label}
+            #Rango maximo de Api posibles a crear 10 MAXIMO
+            esp.solicitar_comando({
+                "cmd": "WebServer", #comando
+                "label": "Temperatura", #label de la API
+                "data": {"dato1": temperatura} #Datos a enviar 
+            })
+            esp.leer_respuesta(timeout=2)
+        else:
+            print("ESP32 no listo.")
+        time.sleep(5)
+
 
 if __name__ == "__main__":
     main()
+

@@ -282,7 +282,6 @@ void scanNetworks()
     {
       String currentSSID = WiFi.SSID(i);
       bool esRepetido = false;
-
       // Verificar si ya se agregó
       for (int j = 0; j < uniqueCount; j++)
       {
@@ -292,7 +291,6 @@ void scanNetworks()
           break;
         }
       }
-
       if (!esRepetido && currentSSID.length() > 0)
       {
         ssids[uniqueCount++] = currentSSID;
@@ -338,7 +336,6 @@ void connectToWiFi(const String &ssid, const String &pass)
 }
 
 // Deconexion de WIFI actual
-
 void disconnectWiFi()
 {
   if (WiFi.status() == WL_CONNECTED)
@@ -408,7 +405,7 @@ void handleCommand(const String &cmd)
       if (ssid != "" && pass != "")
       {
         startAccessPoint(ssid, pass);
-        UART1.println("{\"end\": true}");
+        // UART1.println("{\"end\": true}");
       }
       else
       {
@@ -418,15 +415,14 @@ void handleCommand(const String &cmd)
     }
     else if (command == "PING")
     {
-      UART1.println("[ESP32] PING recibido. Estoy activo.");
-      if (WiFi.status() == WL_CONNECTED)
-      {
-        UART1.printf("[ESP32] IP actual: %s\n", WiFi.localIP().toString().c_str());
-      }
+      IPAddress ip;
+      if (WiFi.getMode() == WIFI_AP || WiFi.getMode() == WIFI_AP_STA)
+        ip = WiFi.softAPIP();
       else
-      {
-        UART1.println("[ESP32] No conectado a WiFi.");
-      }
+        ip = WiFi.localIP();
+
+      UART1.println("[ESP32] PING recibido. Estoy activo.");
+      UART1.printf("[ESP32] IP actual: %s\n", ip.toString().c_str());
       UART1.println("{\"end\": true}");
     }
 
@@ -489,10 +485,17 @@ void handleCommand(const String &cmd)
     }
     else if (command == "INFO")
     {
+      IPAddress ip;
+      if (WiFi.getMode() == WIFI_AP || WiFi.getMode() == WIFI_AP_STA)
+        ip = WiFi.softAPIP();
+      else
+        ip = WiFi.localIP();
+
       UART1.printf("{\"chip\":\"ESP32-S3\",\"ip\":\"%s\",\"rssi\":%d,\"heap\":%d}\n",
-                   WiFi.localIP().toString().c_str(), WiFi.RSSI(), ESP.getFreeHeap());
+                   ip.toString().c_str(), WiFi.RSSI(), ESP.getFreeHeap());
       UART1.println("{\"end\": true}");
     }
+
     /* else if (command == "HTML")
      {
        if (doc.containsKey("html"))
@@ -518,6 +521,7 @@ void handleCommand(const String &cmd)
     {
       handleHtmlPart(doc);
     }
+
     return;
   }
 
