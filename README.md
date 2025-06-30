@@ -60,9 +60,9 @@ print("My IP address is:", eth.pretty_ip(eth.ip_address))
 ```
 ## ESP32 como Coprocesador (modo UART)
 
-El ESP32 se utiliza como coprocesador encargado de gestionar la conexión WiFi. La comunicación entre el microcontrolador principal (ej. RP2040, Archi) y el ESP32 se realiza mediante UART o SPI, mediante el envío de **comandos en formato JSON**.
+El ESP32 se utiliza como coprocesador encargado de gestionar la conexión WiFi. La comunicación entre el microcontrolador principal (ej. RP2040, Archi u otros) y el ESP32 se realiza mediante UART o SPI, mediante el envío de **comandos en formato JSON**.
 
-Este esquema desacopla la lógica de red del controlador principal y delega la conectividad en el ESP32.
+
 
 ---
 
@@ -123,6 +123,8 @@ else:
     print("ESP32 no está listo.")
 
 ```
+---
+
 ### 📋 Lista de comandos
 
 | Comando       | Parámetros                      | Descripción                                                                 | 📄 Código de ejemplo                                                                 |
