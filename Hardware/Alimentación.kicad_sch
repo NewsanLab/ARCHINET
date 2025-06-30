@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 22UF 10V X5R 0603"
 			(at 335.28 73.66 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 276.098 75.184 0)
 			(effects
 				(font
@@ -3315,7 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 275.59 73.66 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 342.138 75.184 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 341.63 73.66 0)
 			(effects
 				(font
@@ -3851,7 +3851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 56PF 25V X8R 0603"
 			(at 327.66 80.01 0)
 			(effects
 				(font
@@ -4693,7 +4693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG BUCK ADJ 3A SOT563"
 			(at 297.18 71.12 0)
 			(effects
 				(font
@@ -4792,7 +4792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 16V X6S 0603"
 			(at 262.89 73.66 0)
 			(effects
 				(font
@@ -4877,7 +4877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "FIXED IND 2.2UH 4.3A 48 MOHM SMD"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -5049,7 +5049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 16V X6S 0603"
 			(at 269.24 73.66 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "RCS060310K0JNEA"
+		(property "PartNumber" "RCS060330K0FKEA"
 			(at 320.04 78.74 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/vishay-dale/RCS060310K0JNEA/5866963?s=N4IgTCBcDaIKwBYCMBaMAOJB2FqByAIiALoC%2BQA"
+		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/vishay-dale/RCS060330K0FKEA/5868642"
 			(at 320.04 78.74 0)
 			(effects
 				(font

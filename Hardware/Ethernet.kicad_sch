@@ -9271,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 80.645 118.11 0)
 			(effects
 				(font
@@ -9509,7 +9509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 210.185 85.725 0)
 			(effects
 				(font
@@ -9720,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 125.095 67.31 0)
 			(effects
 				(font
@@ -9736,6 +9736,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "-"
+			(at 125.095 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PurchaseLink" "-"
+			(at 125.095 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9789,7 +9805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -9816,7 +9832,7 @@
 				(hide yes)
 			)
 		)
-		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/hkc/3225S42500BMDAODGEE-TR/15292356?https://www.digikey.com/en/products/detail/abracon-llc/ABM3B-25-000MHZ-22-E-4-H-T/8582001"
+		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/abracon-llc/ABM3B-25-000MHZ-22-E-4-H-T/8582001"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -9956,7 +9972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -10192,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 6800PF 16V X7R 0603"
 			(at 323.215 69.85 0)
 			(effects
 				(font
@@ -10410,7 +10426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 89.535 95.25 0)
 			(effects
 				(font
@@ -10715,7 +10731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 156.21 64.643 0)
 			(effects
 				(font
@@ -11120,7 +11136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 137.795 67.31 0)
 			(effects
 				(font
@@ -11136,6 +11152,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "-"
+			(at 137.795 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PurchaseLink" "-"
+			(at 137.795 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11264,7 +11296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 318.135 82.55 0)
 			(effects
 				(font
@@ -11629,7 +11661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 16V C0G/NP0 0603"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -11708,7 +11740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 150.495 67.31 0)
 			(effects
 				(font
@@ -11724,6 +11756,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "-"
+			(at 150.495 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PurchaseLink" "-"
+			(at 150.495 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11786,7 +11834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -11873,7 +11921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 201.93 51.435 0)
 			(effects
 				(font
@@ -11958,7 +12006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0603 10NF 16V X7R 10%"
 			(at 302.895 71.12 0)
 			(effects
 				(font
@@ -12045,7 +12093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 320.675 54.61 0)
 			(effects
 				(font
@@ -12349,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 201.93 60.325 0)
 			(effects
 				(font
@@ -12436,7 +12484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 323.215 82.55 0)
 			(effects
 				(font
@@ -12588,7 +12636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 315.595 54.61 0)
 			(effects
 				(font
@@ -12805,7 +12853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 90.805 161.29 0)
 			(effects
 				(font
@@ -12957,7 +13005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 325.755 54.61 0)
 			(effects
 				(font
@@ -13044,7 +13092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 143.002 64.643 0)
 			(effects
 				(font
@@ -13523,7 +13571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 6800PF 16V X7R 0603"
 			(at 333.375 74.93 0)
 			(effects
 				(font
@@ -13696,7 +13744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16V X6S 0603"
 			(at 78.105 161.29 0)
 			(effects
 				(font
@@ -13877,7 +13925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 202.565 85.725 0)
 			(effects
 				(font
@@ -13962,7 +14010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0603 10NF 16V X7R 10%"
 			(at 323.215 97.79 0)
 			(effects
 				(font
@@ -14178,7 +14226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16V X6S 0603"
 			(at 135.255 162.56 0)
 			(effects
 				(font
@@ -14329,7 +14377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16V X6S 0603"
 			(at 233.045 85.725 0)
 			(effects
 				(font
@@ -14416,7 +14464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 180.975 125.73 0)
 			(effects
 				(font
@@ -14503,7 +14551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 115.824 64.643 0)
 			(effects
 				(font
@@ -14589,7 +14637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 217.805 85.725 0)
 			(effects
 				(font
@@ -14674,7 +14722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 225.425 85.725 0)
 			(effects
 				(font
@@ -14892,7 +14940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 95.885 95.25 0)
 			(effects
 				(font
@@ -15555,7 +15603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 130.048 64.897 0)
 			(effects
 				(font
@@ -15640,7 +15688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 127.635 162.56 0)
 			(effects
 				(font
@@ -16082,7 +16130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 16V C0G/NP0 0603"
 			(at 86.36 133.35 0)
 			(effects
 				(font
