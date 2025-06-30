@@ -3489,6 +3489,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -3497,6 +3498,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3939,6 +3941,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
@@ -3956,6 +3959,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300811121/4846839"
@@ -3964,6 +3968,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4060,6 +4065,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4068,6 +4074,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4150,6 +4157,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4158,6 +4166,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4302,6 +4311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4310,6 +4320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4391,6 +4402,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4399,6 +4411,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4543,6 +4556,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4551,6 +4565,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4696,6 +4711,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -4704,6 +4720,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4978,6 +4995,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 10POS 2.54MM"
@@ -4995,6 +5013,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/adam-tech/PH1-10-UA/9830653"
@@ -5003,6 +5022,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5212,6 +5232,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
@@ -5229,6 +5250,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300811121/4846839"
@@ -5237,6 +5259,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5463,6 +5486,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -5471,6 +5495,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -5553,6 +5578,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -5561,6 +5587,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -5642,6 +5669,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -5650,6 +5678,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -5794,6 +5823,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -5802,6 +5832,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6012,6 +6043,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825?s=N4IgTCBcDaIGwEYDMAGFSGbAkBdAvkA"
@@ -6020,6 +6052,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6656,6 +6689,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300611121/4846833"
@@ -6664,6 +6698,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
