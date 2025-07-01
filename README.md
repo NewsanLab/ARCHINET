@@ -3,7 +3,7 @@ Archi Net es una placa de desarrollo diseñada para facilitar la conectividad me
 
 El diseño está pensado para que todas las funciones puedan ser programadas y controladas directamente desde el microcontrolador ARCHI (basado en RP2040), sin necesidad de programar el ESP32 por separado. Este actúa como un coprocesador de comunicaciones, operando mediante comandos enviados en formato Json.
 
-![Texto alternativo para la imagen]([/A-NET.png ](https://github.com/NewsanLab/ARCHINET/blob/main/Img/A-NET.png))
+![Texto alternativo para la imagen](https://github.com/NewsanLab/ARCHINET/blob/main/Img/A-NET.png)
 
 ## Especificaciones
 
