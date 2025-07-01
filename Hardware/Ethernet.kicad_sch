@@ -2767,6 +2767,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -6353,10 +6460,16 @@
 		(uuid "153c6701-fa6d-490f-9418-38f44a8fbb40")
 	)
 	(junction
-		(at 69.85 118.11)
+		(at 62.23 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "236a63c4-1101-4844-bfa8-ae927e78e3ad")
+	)
+	(junction
+		(at 232.41 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "243df64c-51e1-46b1-8cea-07e7193d873d")
 	)
 	(junction
 		(at 31.75 165.1)
@@ -6371,7 +6484,7 @@
 		(uuid "2b286107-fa86-45b0-a676-53e5790f9ab4")
 	)
 	(junction
-		(at 225.425 90.805)
+		(at 224.79 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bfb6d61-5b77-49aa-a9fb-47529daa2746")
@@ -6389,7 +6502,7 @@
 		(uuid "3675df41-b5ae-4154-942d-2a14ad608247")
 	)
 	(junction
-		(at 210.185 90.805)
+		(at 209.55 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dca89da-4d1e-4807-b93a-41ed711d08c4")
@@ -6401,13 +6514,25 @@
 		(uuid "51322248-c671-4dbc-b771-6397c30039e9")
 	)
 	(junction
+		(at 83.82 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55bb6f0b-3934-43b9-8ec7-cac4d1e33966")
+	)
+	(junction
 		(at 130.048 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "587d49cd-3bf1-4478-958d-977ce1664e73")
 	)
 	(junction
-		(at 86.36 118.11)
+		(at 232.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd93882-7137-42ed-af65-2f0f53bff172")
+	)
+	(junction
+		(at 78.74 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e8fff1a-857e-4203-b09d-429f4f099adf")
@@ -6449,25 +6574,25 @@
 		(uuid "a09da922-72c6-45e1-a9d7-8ec91cb24b42")
 	)
 	(junction
-		(at 69.85 127)
+		(at 62.23 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9bb69a3-d65e-4a1f-aa54-a27f9a0c601a")
 	)
 	(junction
-		(at 217.805 90.805)
+		(at 217.17 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5065231-a4d9-48dc-83e1-a61130002ea0")
 	)
 	(junction
-		(at 225.425 78.105)
+		(at 224.79 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbc83e1f-f33f-4e81-ab2f-214f9f1e41cc")
 	)
 	(junction
-		(at 86.36 127)
+		(at 78.74 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcb87287-c960-4893-a75e-2b52132e483b")
@@ -6485,7 +6610,7 @@
 		(uuid "d7e2b083-089b-4745-8cd7-8820026df06f")
 	)
 	(junction
-		(at 217.805 78.105)
+		(at 217.17 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de68c519-f690-4003-9370-9f8f6a4f94a7")
@@ -6515,7 +6640,7 @@
 		(uuid "f6d06f5a-a31a-4744-a2d8-3dd10e52a8ba")
 	)
 	(junction
-		(at 210.185 78.105)
+		(at 209.55 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb078758-017c-47b7-8ed3-f46a81b53491")
@@ -6660,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 78.105) (xy 210.185 78.105)
+			(xy 201.93 80.01) (xy 209.55 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6810,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 78.105) (xy 233.045 80.645)
+			(xy 232.41 80.01) (xy 232.41 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -6900,7 +7025,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 107.315 118.11)
+			(xy 78.74 118.11) (xy 83.82 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -6980,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 86.36 128.27)
+			(xy 78.74 127) (xy 78.74 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -7020,7 +7145,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 90.805) (xy 217.805 92.71)
+			(xy 217.17 92.71) (xy 217.17 94.615)
 		)
 		(stroke
 			(width 0.1524)
@@ -7220,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 80.645) (xy 210.185 78.105)
+			(xy 209.55 82.55) (xy 209.55 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -7290,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 86.36 127)
+			(xy 78.74 118.11) (xy 78.74 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -7360,7 +7485,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 88.265) (xy 225.425 90.805)
+			(xy 224.79 90.17) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7390,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 88.265) (xy 202.565 90.805)
+			(xy 201.93 90.17) (xy 201.93 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7410,7 +7535,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 90.805) (xy 225.425 90.805)
+			(xy 217.17 92.71) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7440,7 +7565,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 80.645) (xy 202.565 78.105)
+			(xy 201.93 82.55) (xy 201.93 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -7480,7 +7605,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 135.89) (xy 69.85 139.7)
+			(xy 62.23 135.89) (xy 62.23 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -7490,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 88.265) (xy 217.805 90.805)
+			(xy 217.17 90.17) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7530,7 +7655,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 78.105) (xy 217.805 80.645)
+			(xy 217.17 80.01) (xy 217.17 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -7600,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 90.805) (xy 233.045 90.805)
+			(xy 224.79 92.71) (xy 232.41 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7610,7 +7735,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 120.65) (xy 74.93 120.65)
+			(xy 71.12 120.65) (xy 67.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7720,7 +7845,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 69.85 118.11)
+			(xy 62.23 115.57) (xy 62.23 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -7790,7 +7915,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 127) (xy 74.93 127)
+			(xy 62.23 127) (xy 67.31 127)
 		)
 		(stroke
 			(width 0)
@@ -7800,7 +7925,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 90.805) (xy 233.045 88.265)
+			(xy 232.41 92.71) (xy 232.41 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -7850,7 +7975,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 73.914) (xy 217.805 78.105)
+			(xy 217.17 75.819) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -7860,7 +7985,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 118.11) (xy 69.85 127)
+			(xy 62.23 118.11) (xy 62.23 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -8040,7 +8165,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 90.805) (xy 217.805 90.805)
+			(xy 209.55 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -8060,7 +8185,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 78.105) (xy 233.045 78.105)
+			(xy 224.79 80.01) (xy 232.41 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -8190,16 +8315,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 85.725 118.11)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "99cc41c5-d569-4536-8326-d65c06bc456f")
-	)
-	(wire
-		(pts
 			(xy 90.805 166.37) (xy 90.805 170.18)
 		)
 		(stroke
@@ -8300,7 +8415,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 138.43) (xy 86.36 139.7)
+			(xy 78.74 138.43) (xy 78.74 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8310,7 +8425,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 78.105) (xy 225.425 78.105)
+			(xy 217.17 80.01) (xy 224.79 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -8380,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 107.315 115.57)
+			(xy 62.23 115.57) (xy 107.315 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -8400,7 +8515,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 90.805) (xy 210.185 90.805)
+			(xy 201.93 92.71) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -8460,7 +8575,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 80.645) (xy 225.425 78.105)
+			(xy 224.79 82.55) (xy 224.79 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -8477,6 +8592,16 @@
 			(type default)
 		)
 		(uuid "c03f4c7f-dae9-4fdb-99d9-d5e53cbdd4f2")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2ba11f4-9f68-42af-a00c-9571e328b20e")
 	)
 	(wire
 		(pts
@@ -8530,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 78.105) (xy 217.805 78.105)
+			(xy 209.55 80.01) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -8550,7 +8675,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 78.74 120.65)
+			(xy 71.12 121.92) (xy 71.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8570,7 +8695,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 78.74 139.7)
+			(xy 71.12 132.08) (xy 71.12 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8620,7 +8745,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 127) (xy 69.85 128.27)
+			(xy 62.23 127) (xy 62.23 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -8670,7 +8795,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 127) (xy 86.36 127)
+			(xy 74.93 127) (xy 78.74 127)
 		)
 		(stroke
 			(width 0)
@@ -8680,7 +8805,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 118.11) (xy 75.565 118.11)
+			(xy 62.23 118.11) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -8720,13 +8845,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 118.11) (xy 75.565 118.11)
+			(xy 62.23 118.11) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e34f633f-4df6-40bc-b326-20e35699f8ed")
+	)
+	(wire
+		(pts
+			(xy 83.82 118.11) (xy 107.315 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3671df6-e46a-4209-a44b-4ad8c1a532b5")
 	)
 	(wire
 		(pts
@@ -8780,7 +8915,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 86.36 138.43)
+			(xy 78.74 135.89) (xy 78.74 138.43)
 		)
 		(stroke
 			(width 0.1524)
@@ -8820,7 +8955,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 88.265) (xy 210.185 90.805)
+			(xy 209.55 90.17) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -9228,7 +9363,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:RESISTOR_0603_NOOUT")
-		(at 80.645 118.11 0)
+		(at 71.12 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9236,7 +9371,7 @@
 		(dnp no)
 		(uuid "056095ca-46f4-43bf-b225-6915cd55f8cd")
 		(property "Reference" "R15"
-			(at 80.645 115.57 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +9379,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9254,7 +9389,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9407,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9416,7 @@
 			)
 		)
 		(property "PartNumber" "RCS06031M00FKEA"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9425,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.de/en/products/detail/koa-speer-electronics-inc/RK73B2ATTD105J/10235908"
-			(at 80.645 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 139.7 0)
+		(at 62.23 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9411,7 +9546,7 @@
 		(dnp no)
 		(uuid "07316603-c435-4b15-9c8e-84ddc5094c9b")
 		(property "Reference" "#PWR028"
-			(at 69.85 146.05 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 143.51 0)
+			(at 62.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 139.7 0)
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 139.7 0)
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 139.7 0)
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9603,7 @@
 	)
 	(symbol
 		(lib_id "anetLib:CAP_CERAMIC0603_NO")
-		(at 210.185 85.725 0)
+		(at 209.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9476,7 +9611,7 @@
 		(dnp no)
 		(uuid "0c8bf0ad-246f-4578-b17e-04d2035de218")
 		(property "Reference" "C20"
-			(at 207.895 84.475 90)
+			(at 207.26 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9619,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 212.485 84.475 90)
+			(at 211.85 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9627,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 210.185 85.725 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9636,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-			(at 210.185 85.725 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9645,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
-			(at 210.185 85.725 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9654,7 @@
 			)
 		)
 		(property "PartNumber" "CC0603KRX7R7BB104"
-			(at 210.185 85.725 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9663,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 210.185 85.725 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9906,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 78.74 127 0)
+		(at 71.12 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9779,7 +9914,7 @@
 		(dnp no)
 		(uuid "14c255ac-890f-4768-8325-824706651245")
 		(property "Reference" "Y1"
-			(at 76.2 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9788,7 +9923,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 76.2 130.81 0)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9797,7 +9932,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm"
-			(at 78.74 127 0)
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9941,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
-			(at 78.74 127 0)
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9950,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 78.74 127 0)
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9959,7 @@
 			)
 		)
 		(property "PartNumber" "ABM3B-25.000MHZ-22-E-4-H-T"
-			(at 78.74 127 0)
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +9968,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/abracon-llc/ABM3B-25-000MHZ-22-E-4-H-T/8582001"
-			(at 78.74 127 0)
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11171,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 120.65 270)
+		(at 67.31 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11044,7 +11179,7 @@
 		(dnp no)
 		(uuid "439cfe31-df1b-4f7e-9e40-79f2bcf3cc7f")
 		(property "Reference" "#PWR029"
-			(at 68.58 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +11188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 120.65 0)
+			(at 63.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 120.65 0)
+			(at 67.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 120.65 0)
+			(at 67.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11079,7 +11214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 120.65 0)
+			(at 67.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 139.7 0)
+		(at 71.12 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11433,7 +11568,7 @@
 		(dnp no)
 		(uuid "4f39a9af-bffd-4462-8c57-5e8d4bcd495c")
 		(property "Reference" "#PWR031"
-			(at 78.74 146.05 0)
+			(at 71.12 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 143.51 0)
+			(at 71.12 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +11585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 139.7 0)
+			(at 71.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +11594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 139.7 0)
+			(at 71.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 139.7 0)
+			(at 71.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11755,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:CAP_CERAMIC0603_NO")
-		(at 69.85 133.35 0)
+		(at 62.23 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11628,7 +11763,7 @@
 		(dnp no)
 		(uuid "5b708a56-86d1-4710-bfde-2279bf315c00")
 		(property "Reference" "C13"
-			(at 67.56 132.1 90)
+			(at 59.94 132.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +11771,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 72.15 132.1 90)
+			(at 64.53 132.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +11779,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.85 133.35 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +11788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 69.85 133.35 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11797,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 16V C0G/NP0 0603"
-			(at 69.85 133.35 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11806,7 @@
 			)
 		)
 		(property "PartNumber" "C0603C220K4GACTU"
-			(at 69.85 133.35 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11815,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/kemet/C0603C220K4GACTU/2200194"
-			(at 69.85 133.35 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,6 +12265,73 @@
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6965d21c-13c9-48e8-b62f-8b0495f2ed3a")
+		(property "Reference" "TP3"
+			(at 237.49 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 237.49 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03508b64-d8d0-48ea-b9f8-50c561e84b4c")
+		)
+		(instances
+			(project ""
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12897,7 +13099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.805 92.71 0)
+		(at 217.17 94.615 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12905,7 +13107,7 @@
 		(dnp no)
 		(uuid "7eb3fe69-b5aa-4f75-b4ce-a38d91f8b38b")
 		(property "Reference" "#PWR050"
-			(at 217.805 99.06 0)
+			(at 217.17 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,7 +13116,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 218.44 96.52 0)
+			(at 217.805 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +13124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.805 92.71 0)
+			(at 217.17 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +13133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.805 92.71 0)
+			(at 217.17 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +13142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.805 92.71 0)
+			(at 217.17 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,7 +13403,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 217.805 73.914 0)
+		(at 217.17 75.819 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13210,7 +13412,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f1c67d-2adc-44eb-b171-8d242c7fd986")
 		(property "Reference" "#PWR049"
-			(at 217.805 77.724 0)
+			(at 217.17 79.629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13219,7 +13421,7 @@
 			)
 		)
 		(property "Value" "AVDD"
-			(at 217.805 68.58 0)
+			(at 217.17 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +13429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.805 73.914 0)
+			(at 217.17 75.819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.805 73.914 0)
+			(at 217.17 75.819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 217.805 73.914 0)
+			(at 217.17 75.819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 139.7 0)
+		(at 78.74 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13407,7 +13609,7 @@
 		(dnp no)
 		(uuid "978871dc-068f-47b3-9a97-ad172c8faabd")
 		(property "Reference" "#PWR032"
-			(at 86.36 146.05 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 143.51 0)
+			(at 78.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +13626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13442,7 +13644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,7 +14086,7 @@
 	)
 	(symbol
 		(lib_id "anetLib:CAP_CERAMIC0603_NO")
-		(at 202.565 85.725 0)
+		(at 201.93 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13892,7 +14094,7 @@
 		(dnp no)
 		(uuid "ab331bf2-41e6-4e9b-bb74-7de0e1fe25f0")
 		(property "Reference" "C19"
-			(at 200.275 84.475 90)
+			(at 199.64 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +14102,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 204.865 84.475 90)
+			(at 204.23 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 202.565 85.725 0)
+			(at 201.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +14119,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-			(at 202.565 85.725 0)
+			(at 201.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13926,7 +14128,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
-			(at 202.565 85.725 0)
+			(at 201.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13935,7 +14137,7 @@
 			)
 		)
 		(property "PartNumber" "CC0603KRX7R7BB104"
-			(at 202.565 85.725 0)
+			(at 201.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +14146,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 202.565 85.725 0)
+			(at 201.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,6 +14249,72 @@
 			(project "A-NET"
 				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae9707cc-ac03-4f3a-9dbd-a266474b1d67")
+		(property "Reference" "TP2"
+			(at 85.598 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CLKIN"
+			(at 85.598 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd908c89-44f3-4641-9001-d5281968340e")
+		)
+		(instances
+			(project ""
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14336,7 +14604,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 233.045 85.725 0)
+		(at 232.41 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14344,7 +14612,7 @@
 		(dnp no)
 		(uuid "c0121e8a-5b4c-4cce-8848-06914599ef0d")
 		(property "Reference" "C23"
-			(at 230.755 84.475 90)
+			(at 230.12 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +14620,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 235.345 84.475 90)
+			(at 234.71 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14360,7 +14628,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 233.045 85.725 0)
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14369,7 +14637,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL10X106MO8NRNC_Spec.pdf"
-			(at 233.045 85.725 0)
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14378,7 +14646,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 16V X6S 0603"
-			(at 233.045 85.725 0)
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14387,7 +14655,7 @@
 			)
 		)
 		(property "PartNumber" "CL10X106MO8NRNC"
-			(at 233.045 85.725 0)
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14396,7 +14664,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10X106MO8NRNC/5961253"
-			(at 233.045 85.725 0)
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14864,7 @@
 	(symbol
 		(lib_name "CAP_CERAMIC0603_NO_1")
 		(lib_id "ArchiBot-eagle-import:CAP_CERAMIC0603_NO")
-		(at 217.805 85.725 0)
+		(at 217.17 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14604,7 +14872,7 @@
 		(dnp no)
 		(uuid "c57dc818-c75c-4f81-a811-d5d9d2e57fb2")
 		(property "Reference" "C21"
-			(at 215.515 84.475 90)
+			(at 214.88 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14612,7 +14880,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 220.105 84.475 90)
+			(at 219.47 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14888,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 217.805 85.725 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14629,7 +14897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-			(at 217.805 85.725 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14638,7 +14906,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
-			(at 217.805 85.725 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +14915,7 @@
 			)
 		)
 		(property "PartNumber" "CC0603KRX7R7BB104"
-			(at 217.805 85.725 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +14924,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 217.805 85.725 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14681,7 +14949,7 @@
 	)
 	(symbol
 		(lib_id "anetLib:CAP_CERAMIC0603_NO")
-		(at 225.425 85.725 0)
+		(at 224.79 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14689,7 +14957,7 @@
 		(dnp no)
 		(uuid "ca647846-5c1e-448f-a5b2-ecabd5b52f77")
 		(property "Reference" "C22"
-			(at 223.135 84.475 90)
+			(at 222.5 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14965,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 227.725 84.475 90)
+			(at 227.09 86.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14705,7 +14973,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.425 85.725 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14714,7 +14982,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-			(at 225.425 85.725 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14723,7 +14991,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
-			(at 225.425 85.725 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14732,7 +15000,7 @@
 			)
 		)
 		(property "PartNumber" "CC0603KRX7R7BB104"
-			(at 225.425 85.725 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14741,7 +15009,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 225.425 85.725 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,6 +15762,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed9ef195-694c-4d50-a65a-1a689d48222f")
+		(property "Reference" "TP4"
+			(at 237.49 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AGND"
+			(at 237.49 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af50c95-7175-4c19-a5e4-efa5193c51de")
+		)
+		(instances
+			(project ""
+				(path "/35cd6522-dedd-4747-926a-ebf273b4ab66/87db1f9a-df11-4ed3-82e8-c2f413192aa0"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 62.865 0)
 		(unit 1)
@@ -16089,7 +16424,7 @@
 	)
 	(symbol
 		(lib_id "ArchiBot-eagle-import:CAP_CERAMIC0603_NO")
-		(at 86.36 133.35 0)
+		(at 78.74 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16097,7 +16432,7 @@
 		(dnp no)
 		(uuid "fb1f6da2-bee5-493a-bcbf-118badbe82fc")
 		(property "Reference" "C15"
-			(at 84.07 132.1 90)
+			(at 76.45 132.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16105,7 +16440,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 88.66 132.1 90)
+			(at 81.04 132.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16113,7 +16448,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 133.35 0)
+			(at 78.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16122,7 +16457,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 86.36 133.35 0)
+			(at 78.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16131,7 +16466,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 16V C0G/NP0 0603"
-			(at 86.36 133.35 0)
+			(at 78.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16140,7 +16475,7 @@
 			)
 		)
 		(property "PartNumber" "C0603C220K4GACTU"
-			(at 86.36 133.35 0)
+			(at 78.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,7 +16484,7 @@
 			)
 		)
 		(property "PurchaseLink" "https://www.digikey.com/en/products/detail/kemet/C0603C220K4GACTU/2200194"
-			(at 86.36 133.35 0)
+			(at 78.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
