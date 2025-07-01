@@ -26,7 +26,7 @@ El diseño está pensado para que todas las funciones puedan ser programadas y c
 * **ESP32-S3:** Funciona como un coprocesador dedicado a la conectividad inalámbrica, comunicándose con Archi mediante interfaces como UART o SPI.
 * **Ethernet (WIZNET W5500):** Proporciona la conexión de red cableada a través de un puerto RJ45, permitiendo una comunicación Ethernet.
 
-![Texto alternativo para la imagen]([/bloques.PNG ](https://github.com/NewsanLab/ARCHINET/blob/main/Img/bloques.PNG))
+![Diagrama en Bloques ArchiNET](https://raw.githubusercontent.com/NewsanLab/ARCHINET/main/Img/A-NET.png "Diagrama en Bloques de ArchiNET")
 
 ## Diagrama en Bloques 
 
