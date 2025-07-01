@@ -1,8 +1,5 @@
 # ARCHINET
 
-Archi Net es una placa de desarrollo diseñada para facilitar la conectividad mediante WiFi, Ethernet y Bluetooth Low Energy (BLE). Cuenta con 4 entradas analógicas y 7 entradas/salidas digitales, lo que la hace ideal para aplicaciones de monitoreo, control de sensores y automatización.
-
-El diseño está pensado para que todas las funciones puedan ser programadas y controladas directamente desde el microcontrolador ARCHI (basado en RP2040), sin necesidad de programar el ESP32 por separado. Este actúa como un coprocesador de comunicaciones, operando mediante comandos enviados en formato Json.
 
 ## Especificaciones
 
