@@ -128,8 +128,8 @@ Este ejemplo muestra cómo controlar el ESP32 como coprocesador para conectarse 
 
   - `UART TX` → `GP12`
   - `UART RX` → `GP13`
-  - `Pin ready` → `GP48`
-  - `Pin reset` → `GP0`
+  - `Pin ready` → `GP14`
+  - `Pin reset` → `GP15`
 
 ---
 
@@ -175,3 +175,5 @@ else:
 | `POST`        | `url`, `data`                   | Envía datos mediante HTTP POST (JSON) a la URL especificada.               | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/Consulta%20POST/code.py)          |
 | `WebServer`   | `label`, `data`                 | Crea o actualiza un endpoint en el servidor embebido del ESP32.            | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/WebServer-API-WiFi/code.py)     |
 | `HTML`        | `html`                          | Inyecta HTML personalizado en el servidor web embebido.                    | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/A%C3%B1adir%20HTML/codehtml.py)          |
+| `UART_OFF`    | `UART_OFF`                      | Apaga el UART para utilizar el Ethernet, para volver utilzar reiniciar esp32.| [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/A%C3%B1adir%20HTML/codehtml.py(https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/UART_OFF%26ETHERNET/Code.py)|
+
