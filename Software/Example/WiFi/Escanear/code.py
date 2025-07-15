@@ -68,7 +68,7 @@ def main():
     # --- Reset físico del ESP32 ---
     # Esto asegura que se reinicie antes de iniciar la comunicación,
     # evitando que queden tareas anteriores colgadas o el sistema en estado inestable.
-    reset_pin = digitalio.DigitalInOut(board.GP11)
+    reset_pin = digitalio.DigitalInOut(board.GP15)
     reset_pin.direction = digitalio.Direction.OUTPUT
     print("Reiniciando ESP32-S3...")
 
@@ -82,7 +82,7 @@ def main():
     reset_pin.deinit()  # Liberamos el pin
 
     # --- Inicializar UART con pines definidos ---
-    esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP10)
+    esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP14)
 
     # --- Esperar a que el ESP32 indique que está listo ---
     if not esp.esperar_ready(timeout=10):

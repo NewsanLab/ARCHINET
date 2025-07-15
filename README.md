@@ -102,13 +102,12 @@ Este ejemplo muestra cómo controlar el ESP32 como coprocesador para conectarse 
 ---
 
 ### ⚙️ Configuración de pines
+- **UART y pines de control**:
 
-| Función        | Pin GPIO |
-|----------------|----------|
-| UART TX        | GP12     |
-| UART RX        | GP13     |
-| Pin `ready`    | GP10     |
-| Pin `reset`    | GP11     |
+  - `UART TX` → `GP12`
+  - `UART RX` → `GP13`
+  - `Pin ready` → `GP48`
+  - `Pin reset` → `GP0`
 
 ---
 
@@ -129,7 +128,7 @@ Este ejemplo muestra cómo controlar el ESP32 como coprocesador para conectarse 
 ### Fragmento del código
 
 ```python
-esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP10)
+esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP14)
 
 if esp.esperar_ready(timeout=10):
     esp.solicitar_comando({"cmd": "CONNECT", "ssid": "tu_ssid", "pass": "tu_password"})

@@ -10,13 +10,14 @@
 #include <WebServer.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
+bool uartEnabled = true; // Variable global para estado UART
 
 // ======== Definición de pines ======================================================================== //
 
-#define RESET_SIGNAL_PIN 11 // Pin para enviar señal de reinicio
-#define TXD_PIN 10          // TX del ESP32 (hacia RX del otro dispositivo)
-#define RXD_PIN 13          // RX del ESP32 (desde TX del otro dispositivo)
-#define READY_PIN 12        // Pin para recibir señal de "listo" desde el otro dispositivo
+#define RESET_SIGNAL_PIN GPIO_NUM_0 // Pin para enviar señal de reinicio
+#define TXD_PIN 10                  // TX del ESP32 (hacia RX del otro dispositivo)
+#define RXD_PIN 13                  // RX del ESP32 (desde TX del otro dispositivo)
+#define READY_PIN GPIO_NUM_48       // Pin para recibir señal de "listo" desde el otro dispositivo
 
 #define BUF_SIZE 1024 // Tamaño del buffer para comunicaciones UART
 
@@ -494,6 +495,36 @@ void handleCommand(const String &cmd)
       UART1.printf("{\"chip\":\"ESP32-S3\",\"ip\":\"%s\",\"rssi\":%d,\"heap\":%d}\n",
                    ip.toString().c_str(), WiFi.RSSI(), ESP.getFreeHeap());
       UART1.println("{\"end\": true}");
+    }
+    if (command == "UART_OFF")
+    {
+      if (uartEnabled)
+      {
+        UART1.println("[ESP32] UART apagado."); // mensaje para apagar
+        UART1.println("{\"end\": true}");
+        UART1.flush(); // esperar a que se envíe todo
+        UART1.end();   // cierra el puerto UART
+        uartEnabled = false;
+      }
+      else
+      {
+        Serial.println("[ESP32] UART ya estaba apagado."); // debug en Serial
+      }
+    }
+    else if (command == "UART_ON")
+    {
+      if (!uartEnabled)
+      {
+        UART1.begin(115200, SERIAL_8N1, RXD_PIN, TXD_PIN); // Reabre UART
+        uartEnabled = true;
+        UART1.println("[ESP32] UART encendido.");
+        UART1.println("{\"end\": true}");
+      }
+      else
+      {
+        UART1.println("[ESP32] UART ya estaba encendido.");
+        UART1.println("{\"end\": true}");
+      }
     }
 
     /* else if (command == "HTML")

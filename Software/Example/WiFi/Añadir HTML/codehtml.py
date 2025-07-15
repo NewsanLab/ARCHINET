@@ -94,7 +94,7 @@ def enviar_html_fragmentado(esp, html, fragment_size=512):
 def main():
     # --- Reset físico del ESP32 ---
     # Se reinicia el ESP32 para que no queden tareas previas o estados inconsistentes.
-    reset_pin = digitalio.DigitalInOut(board.GP11)
+    reset_pin = digitalio.DigitalInOut(board.GP15)
     reset_pin.direction = digitalio.Direction.OUTPUT
     print("Reiniciando ESP32-S3...")
 
@@ -108,7 +108,7 @@ def main():
     reset_pin.deinit()  # Libera el pin para evitar consumo o interferencias
 
     # Inicializa la clase ESP32UART con los pines específicos para TX, RX y ready
-    esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP10)
+    esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP14)
 
     # Espera que el ESP32 indique que está listo para comunicarse
     if not esp.esperar_ready(timeout=10):

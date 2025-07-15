@@ -4,46 +4,35 @@ import busio
 import digitalio
 import json
 
-# Clase que gestiona la comunicación UART con el ESP32
+# Librerías WIZnet
+import adafruit_connection_manager
+import adafruit_requests
+from adafruit_wiznet5k.adafruit_wiznet5k import WIZNET5K
+
 class ESP32UART:
     def __init__(self, tx_pin, rx_pin, ready_pin, baudrate=115200, timeout=0.1):
-        # Inicializa la UART con pines TX y RX, velocidad y timeout configurables
         self.uart = busio.UART(tx=tx_pin, rx=rx_pin, baudrate=baudrate, timeout=timeout)
-
-        # Configura el pin 'ready_pin' como entrada digital con resistencia Pull-Down
-        # Este pin se usa para detectar cuándo el ESP32 está listo para comunicarse
         self.ready_pin = digitalio.DigitalInOut(ready_pin)
         self.ready_pin.direction = digitalio.Direction.INPUT
         self.ready_pin.pull = digitalio.Pull.DOWN
 
     def esperar_ready(self, timeout=5):
-        """
-        Espera hasta que el pin 'ready_pin' se ponga en alto, indicando que el ESP32 está listo.
-        Si no se activa dentro del timeout, devuelve False.
-        """
         inicio = time.monotonic()
         while time.monotonic() - inicio < timeout:
             if self.ready_pin.value:
-                return True  # ESP32 listo
-            time.sleep(0.01)  
-        return False  
+                return True
+            time.sleep(0.01)
+        return False
 
     def solicitar_comando(self, comando_dict):
-        """
-        Envía un comando JSON al ESP32, serializado y terminado con salto de línea.
-        """
-        mensaje = json.dumps(comando_dict) + "\n"  # Delimitador '\n' para lectura por línea
-        self.uart.write(mensaje.encode())  # Envía bytes por UART
+        mensaje = json.dumps(comando_dict) + "\n"
+        self.uart.write(mensaje.encode())
 
     def leer_respuesta(self, timeout=5):
-        """
-        Lee respuestas UART hasta timeout o hasta recibir un mensaje JSON con {"end": true}.
-        Maneja buffers parciales y decodifica línea por línea.
-        """
         buffer = b""
         inicio = time.monotonic()
         while time.monotonic() - inicio < timeout:
-            data = self.uart.read(64)  # Lee hasta 64 bytes disponibles
+            data = self.uart.read(64)
             if data:
                 buffer += data
                 while b'\n' in buffer:
@@ -52,18 +41,14 @@ class ESP32UART:
                         texto = linea.decode().strip()
                     except Exception:
                         texto = "<error decoding>"
-
                     if texto:
                         try:
                             json_obj = json.loads(texto)
-                            # Fin de respuesta si recibe un JSON con {"end": true}
                             if isinstance(json_obj, dict) and json_obj.get("end") is True:
                                 return
                         except Exception:
-                            pass  # No es JSON, se imprime igual
+                            pass
                         print(texto)
-
-        # Si quedó algo sin \n, intentar mostrarlo también
         if buffer:
             try:
                 texto = buffer.decode().strip()
@@ -72,39 +57,56 @@ class ESP32UART:
             if texto:
                 print("Respuesta parcial:", texto)
 
+    def cerrar(self):
+        # Libera el UART
+        if hasattr(self.uart, 'deinit'):
+            self.uart.deinit()
 
-
-
-def main():
-    # --- Reset físico del ESP32 ---
-    # Se reinicia el ESP32 para que no queden tareas previas o estados inconsistentes.
+def reiniciar_ESP():
     reset_pin = digitalio.DigitalInOut(board.GP15)
     reset_pin.direction = digitalio.Direction.OUTPUT
     print("Reiniciando ESP32-S3...")
-
-    # Pulso de reset: alto - bajo - alto, con pausas para asegurar que se registre
     reset_pin.value = True
     time.sleep(0.1)
     reset_pin.value = False
     time.sleep(0.1)
     reset_pin.value = True
-    time.sleep(1)  # Espera a que el ESP32 arranque completamente
-    reset_pin.deinit()  # Libera el pin para evitar consumo o interferencias
+    time.sleep(1)
+    reset_pin.deinit()
 
-    # Inicializa la clase ESP32UART con los pines específicos para TX, RX y ready
+def main():
+    reiniciar_ESP()
+
     esp = ESP32UART(tx_pin=board.GP12, rx_pin=board.GP13, ready_pin=board.GP14)
 
-    # Espera que el ESP32 indique que está listo para comunicarse
     if not esp.esperar_ready(timeout=10):
         print("ESP32 no está listo.")
         return
 
-    # Enviar comando para conectar a WiFi (reemplazar ssid y pass por los reales)
-    print("\n--- TEST: CONNECT ---")
-    esp.solicitar_comando({"cmd": "CONNECT", "ssid": "xxx", "pass": "xxx"})
-    esp.leer_respuesta(timeout=20)
-   
+    print("\n--- Comando: SCAN ---")
+    esp.solicitar_comando({"cmd": "SCAN"})
+    esp.leer_respuesta(timeout=10)
+    #cerras el uart ESP32, se puede probar los ejemplos de ethernet 
+    #para usar nuevamente el UART reiniciar ESP32 
+    print("\n--- Comando: UART_OFF ---")
+    esp.solicitar_comando({"cmd": "UART_OFF"})
+    esp.leer_respuesta(timeout=10)
+
+    #  libera el UART para usar GP12 como MISO SPI #
+    esp.cerrar()
+
+    #  inicializamos el SPI con GP12 como MISO
+    spi = busio.SPI(board.GP10, MOSI=board.GP11, MISO=board.GP12)
+    cs = digitalio.DigitalInOut(board.GP9)
+
+    eth = WIZNET5K(spi, cs)
+    pool = adafruit_connection_manager.get_radio_socketpool(eth)
+    ssl_context = adafruit_connection_manager.get_radio_ssl_context(eth)
+    requests = adafruit_requests.Session(pool, ssl_context)
+
+    print("Chip Version:", eth.chip)
+    print("MAC Address:", [hex(i) for i in eth.mac_address])
+    print("My IP address is:", eth.pretty_ip(eth.ip_address))
 
 if __name__ == "__main__":
     main()
-
