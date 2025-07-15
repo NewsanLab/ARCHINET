@@ -1,10 +1,32 @@
 # ARCHINET
-Archi Net es una placa de desarrollo diseñada para facilitar la conectividad mediante WiFi, Ethernet y Bluetooth Low Energy (BLE). Cuenta con 4 entradas analógicas y 7 entradas/salidas digitales.
+Archi Net es una placa de desarrollo diseñada para facilitar la conectividad mediante WiFi, Ethernet y Bluetooth Low Energy (BLE). Cuenta con 4 entradas analógicas y 8 entradas/salidas digitales.
 
 El diseño está pensado para que todas las funciones puedan ser programadas y controladas directamente desde el microcontrolador ARCHI (basado en RP2040), sin necesidad de programar el ESP32 por separado. Este actúa como un coprocesador de comunicaciones, operando mediante comandos enviados en formato Json.
 
+![Texto alternativo para la imagen](https://github.com/NewsanLab/ARCHINET/blob/main/Img/A-NET.png)
 
 ## Especificaciones
+
+* **Voltaje de Entrada del Shield:** 5V a 12V.
+* **Conectividad Wi-Fi:** Estándar 802.11 b/g/n (2.4 GHz) con soporte para modos de estación, Punto de Acceso (AP) y Wi-Fi Direct (ESP32-S3).
+* **Conectividad Bluetooth:** Bluetooth LE 5.0 (Bluetooth Low Energy).
+* **Conectividad Ethernet:** Compatible con 10Base-T/100Base-TX Ethernet (WIZnet W5500).
+* **Voltaje de Operación Interno:** Los módulos internos (ESP32-S3 y W5500) operan típicamente a 3.3V, provistos por reguladores a bordo del shield.
+* **Pines de Entrada/Salida (I/O):**
+    * 4 Entradas/Salidas Analógicas.
+    * 8 Entradas/Salidas Digitales.
+* **Programación/Depuración:** Incluye un puerto USB JTAG integrado para la programación y depuración directa del ESP32-S3.
+
+## Diagrama en Bloques 
+
+#### El shield ArchiNET se divide en 4 bloques funcionales principales:
+
+* **Fuente de Alimentación:** Este bloque garantiza la alimentación estable a los bloques de conectividad.
+* **Archi:** Es el microcontrolador principal que controla la comunicación y funcionalidad de los bloques de conectividad (ESP32 y Ethernet WIZNET W5500).
+* **ESP32-S3:** Funciona como un coprocesador dedicado a la conectividad inalámbrica, comunicándose con Archi mediante interfaces como UART o SPI.
+* **Ethernet (WIZNET W5500):** Proporciona la conexión de red cableada a través de un puerto RJ45, permitiendo una comunicación Ethernet.
+
+![Diagrama en Bloques ArchiNET](https://github.com/NewsanLab/ARCHINET/blob/main/Img/bloques.PNG "Diagrama en Bloques de ArchiNET")
 
 ## Diagrama en Bloques 
 
