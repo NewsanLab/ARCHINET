@@ -28,12 +28,17 @@ El diseño está pensado para que todas las funciones puedan ser programadas y c
 
 ![Diagrama en Bloques ArchiNET](https://github.com/NewsanLab/ARCHINET/blob/main/Img/bloques.PNG "Diagrama en Bloques de ArchiNET")
 
-## Diagrama en Bloques 
-
 ## Fuente de alimentación
+El siguiente diagrama en bloque muestra la distribución de voltaje.
 
-## Uso de Pines
----
+![Fuente ArchiNET](https://github.com/NewsanLab/ARCHINET/blob/main/Img/diagramaFuente.PNG "Fuente de alimentación")
+
+El shield ArchiNet tiene una entrada para una fuente externa de +5V con una capacidad de hasta 2A.
+
+Este voltaje de +5V se utiliza para la alimentación principal de la placa. La placa ArchiNet, a su vez, regula este voltaje para obtener una salida de +3.3V.
+
+Esta salida de +3.3V es la que se utiliza para alimentar los módulos de bajo voltaje, como el Wiznet 5500 , el ESP32S3 y sensores
+
 
 # 💻 Software
 
