@@ -4,7 +4,10 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WebServer.h>
-
+#include <BLEDevice.h>
+#include <BLEServer.h>
+#include <BLEUtils.h>
+#include <BLE2902.h>
 // === Pines ===
 extern const gpio_num_t RESET_SIGNAL_PIN;
 extern const int TXD_PIN;
@@ -33,5 +36,17 @@ struct EndpointData {
 extern const int MAX_ENDPOINTS;
 extern EndpointData endpoints[];
 extern int endpointCount;
+//--- BLE ---
+extern bool bleEnabled;
+extern bool deviceConnected;
+extern bool oldDeviceConnected;
+extern bool bleRxEnabled;
 
+extern BLEServer *pServer;
+extern BLECharacteristic *pTxCharacteristic;
+extern BLECharacteristic *pRxCharacteristic;
+
+extern const char SERVICE_UUID[];
+extern const char COMMANDTX_CHARACTERISTIC_UUID[];  
+extern const char COMMANDRX_CHARACTERISTIC_UUID[];
 #endif

@@ -36,5 +36,8 @@ void scanNetworks();
 // ===================== Conexión WiFi =====================
 void connectToWiFi(const String &ssid, const String &pass);
 void disconnectWiFi();
+// ===================== BLE =====================
+void initBLE(const String &deviceName);
+void disableBLE();
 
 #endif

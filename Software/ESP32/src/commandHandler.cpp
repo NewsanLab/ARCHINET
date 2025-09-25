@@ -4,6 +4,10 @@
 #include <ArduinoJson.h>
 #include "globals.h"
 #include "functions.h"
+#include <BLEDevice.h>
+#include <BLEServer.h>
+#include <BLEUtils.h>
+#include <BLE2902.h>
 // === Pines ===
 const gpio_num_t RESET_SIGNAL_PIN = GPIO_NUM_0;
 const int TXD_PIN = 10;
@@ -25,6 +29,20 @@ int receivedParts = 0;
 const int MAX_ENDPOINTS = 10;
 EndpointData endpoints[MAX_ENDPOINTS];
 int endpointCount = 0;
+
+//========================BLE=========
+const char SERVICE_UUID[] = "19b10000-e8f2-537e-4f6c-d104768a1214";
+const char COMMANDTX_CHARACTERISTIC_UUID[] = "19b10001-e8f2-537e-4f6c-d104768a1214"; // TX
+const char COMMANDRX_CHARACTERISTIC_UUID[] = "19b10002-e8f2-537e-4f6c-d104768a1214"; // RX
+
+BLEServer *pServer = nullptr;
+BLECharacteristic *pTxCharacteristic = nullptr;
+BLECharacteristic *pRxCharacteristic = nullptr;
+
+bool bleEnabled = false;
+bool deviceConnected = false;
+bool oldDeviceConnected = false;
+bool bleRxEnabled = false;
 
 void handleCommand(const String &cmd)
 {
@@ -184,6 +202,55 @@ void handleCommand(const String &cmd)
         UART1.println("[ESP32] UART ya estaba encendido.");
         UART1.println("{\"end\": true}");
       }
+    }
+    else if (command == "BLEINIT")
+    {
+      int randNum = random(1000, 9999);
+      String nameBT = "ARCHINET_BLE_" + String(randNum);
+      String name = doc["name"] | nameBT;
+      initBLE(name);
+    }
+    else if (command == "BLETX")
+    {
+      if (bleEnabled && deviceConnected)
+      {
+        String data = doc["data"] | "";
+        if (data != "")
+        {
+          pTxCharacteristic->setValue(data.c_str());
+          pTxCharacteristic->notify();
+          // UART1.printf("[BLE] TX JSON: %s\n", data.c_str());
+          // UART1.println("{\"end\": true}");
+        }
+        // else
+        //{
+        // UART1.println("[BLE] Faltan datos en BLETX");
+        // UART1.println("{\"end\": true}");
+        //}
+      }
+      // else
+      //{
+      //   UART1.println("[BLE] No hay conexión activa");
+      //  UART1.println("{\"end\": true}");
+      // }
+    }
+    else if (command == "BLERX")
+    {
+      bool enable = doc["enable"] | true; // Por defecto, lo activa
+      bleRxEnabled = enable;
+      if (bleRxEnabled)
+      {
+        Serial.println("[BLE] RX habilitado.");
+      }
+      else
+      {
+        Serial.println("[BLE] RX deshabilitado.");
+      }
+      UART1.println(" {\"end\": true}");
+    }
+    else if (command == "BLEOFF")
+    {
+      disableBLE();
     }
     else if (command == "HTML")
     {

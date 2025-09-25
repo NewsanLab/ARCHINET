@@ -206,5 +206,5 @@ Una vez que tienes la conexión hecha, puedes realizar  una app escritorio/celul
 | `UART_OFF`    | `UART_OFF`                      | Apaga el UART para utilizar el Ethernet, para volver utilzar reiniciar esp32.| [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/UART_OFF%26ETHERNET/Code.py) |
 | `BLEINIT`    | *(ninguno o name)*                    | Inicia BLE por defecto crea el nombre del dispositivo | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py)|
 | `BLETX`    |  `data`                   | Realiza la transmisión de datos de BLE , se debe mandar los datos en el parametro data en formato json | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py)|
-| `BLERX`    |  `data`                   | Realiza la recepción de datos de BLE  | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py)|
-
+| `BLERX`    |  *(ninguno)*                  | Realiza la recepción de datos de BLE  | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py)|
+| `BLEOFF`    | *(ninguno o name)*                    | Desactiva el BLE | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/BLEOFF.py)|

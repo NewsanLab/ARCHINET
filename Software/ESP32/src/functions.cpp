@@ -1,6 +1,95 @@
 #include <Arduino.h>
 #include "globals.h"
 #include "functions.h"
+//========================BLE==============================
+
+class ServerCallbacks : public BLEServerCallbacks
+{
+    void onConnect(BLEServer *) override
+    {
+        deviceConnected = true;
+        UART1.println("[BLE] Cliente conectado");
+    }
+
+    void onDisconnect(BLEServer *) override
+    {
+        deviceConnected = false;
+        UART1.println("[BLE] Cliente desconectado");
+    }
+};
+
+// ======== Callbacks ======== //
+class RxCharacteristicCallbacks : public BLECharacteristicCallbacks
+{
+    void onWrite(BLECharacteristic *characteristic) override
+    {
+        if (!bleRxEnabled)
+        {
+            UART1.println("[BLE] RX está deshabilitado, ignorando datos.");
+            return;
+        }
+        std::string rxValue = characteristic->getValue();
+        if (!rxValue.empty())
+        {
+            UART1.printf("[BLE] RX JSON: %s\n", rxValue.c_str());
+            UART1.println("{\"end\": true}"); // Marca de fin
+        }
+    }
+};
+void initBLE(const String &deviceName)
+{
+    // Apagar WiFi antes de activar BLE
+    WiFi.disconnect(true);
+    WiFi.mode(WIFI_OFF);
+
+    BLEDevice::init(deviceName.c_str());
+    pServer = BLEDevice::createServer();
+    pServer->setCallbacks(new ServerCallbacks());
+
+    BLEService *pService = pServer->createService(SERVICE_UUID);
+
+    pTxCharacteristic = pService->createCharacteristic(
+        COMMANDTX_CHARACTERISTIC_UUID,
+        BLECharacteristic::PROPERTY_READ | BLECharacteristic::PROPERTY_NOTIFY);
+    pRxCharacteristic = pService->createCharacteristic(
+        COMMANDRX_CHARACTERISTIC_UUID,
+        BLECharacteristic::PROPERTY_WRITE);
+
+    pRxCharacteristic->setCallbacks(new RxCharacteristicCallbacks());
+
+    pTxCharacteristic->addDescriptor(new BLE2902());
+    pRxCharacteristic->addDescriptor(new BLE2902());
+
+    pService->start();
+
+    BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
+    pAdvertising->addServiceUUID(SERVICE_UUID);
+    BLEDevice::startAdvertising();
+
+    bleEnabled = true;
+    UART1.printf("[BLE] Iniciado con nombre: %s\n", deviceName.c_str());
+    UART1.println("{\"end\": true}");
+}
+void disableBLE()
+{
+    if (bleEnabled)
+    {
+        BLEDevice::deinit(true); // Detiene BLE completamente
+        bleEnabled = false;
+        deviceConnected = false;
+        Serial.println("[BLE] BLE apagado.");
+        if (uartEnabled)
+        {
+            UART1.println("[BLE] BLE apagado.");
+            UART1.println("{\"end\": true}");
+        }
+    }
+    else
+    {
+        Serial.println("[BLE] BLE ya estaba apagado.");
+    }
+}
+
 // ================================= Manejador de interrupción para RESET =================================
 void IRAM_ATTR onResetSignalHigh()
 {
