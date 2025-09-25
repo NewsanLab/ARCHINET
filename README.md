@@ -185,7 +185,7 @@ Una vez que tienes la conexión hecha, puedes realizar  una app escritorio/celul
 
 ### Ejemplo de APP recepción y transmisión 
 
-![Diagrama en Bloques ArchiNET](./img/bleapp.JPG)
+![APP](https://github.com/NewsanLab/ARCHINET/blob/main/Img/bleapp.JPG)
 
 ---
 
@@ -204,7 +204,7 @@ Una vez que tienes la conexión hecha, puedes realizar  una app escritorio/celul
 | `WebServer`   | `label`, `data`                 | Crea o actualiza un endpoint en el servidor embebido del ESP32.            | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/WebServer-API-WiFi/code.py)     |
 | `HTML`        | `html`                          | Inyecta HTML personalizado en el servidor web embebido.                    | [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/WiFi/A%C3%B1adir%20HTML/codehtml.py)          |
 | `UART_OFF`    | `UART_OFF`                      | Apaga el UART para utilizar el Ethernet, para volver utilzar reiniciar esp32.| [🔗 Ver ejemplo](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/UART_OFF%26ETHERNET/Code.py) |
-| `BLEINIT`    | *(ninguno o name)*                    | Inicia BLE por defecto crea el nombre del dispositivo | [🔗 Ver ejemplo](Software\Example\BLE\code.py)|
-| `BLETX`    |  `data`                   | Realiza la transmisión de datos de BLE , se debe mandar los datos en el parametro data en formato json | [🔗 Ver ejemplo](Software\Example\BLE\code.py)|
-| `BLERX`    |  `data`                   | Realiza la recepción de datos de BLE  | [🔗 Ver ejemplo](Software\Example\BLE\code.py)|
+| `BLEINIT`    | *(ninguno o name)*                    | Inicia BLE por defecto crea el nombre del dispositivo | [🔗 Ver ejemplo]([Software\Example\BLE\code.py](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py))|
+| `BLETX`    |  `data`                   | Realiza la transmisión de datos de BLE , se debe mandar los datos en el parametro data en formato json | [🔗 Ver ejemplo]([Software\Example\BLE\code.py](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py))|
+| `BLERX`    |  `data`                   | Realiza la recepción de datos de BLE  | [🔗 Ver ejemplo]([Software\Example\BLE\code.py](https://github.com/NewsanLab/ARCHINET/blob/main/Software/Example/BLE/code.py))|
 
